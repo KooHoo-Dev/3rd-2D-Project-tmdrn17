@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    private const float STOPPING_DISTANCE = 0.1f;
+
     [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
     [field: SerializeField] private GameObject Target { get; set; }
     private int FacingDirection { get; set; } = 1;
@@ -14,8 +16,6 @@ public class EnemyMove : MonoBehaviour
 
     private void Move()
     {
-        const float STOPPING_DISTANCE = 0.1f;
-
         Vector2 inputVector = Target.transform.position - transform.position;
         Vector3 localscale = transform.localScale;
 
