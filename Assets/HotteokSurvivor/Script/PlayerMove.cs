@@ -1,10 +1,11 @@
+using Study.Utilities;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Study.Utilities;
+using static UnityEngine.GraphicsBuffer;
 
 public class PlayerMove : MonoBehaviour
 {
-    [field: SerializeField] private float moveSpeed { get; set; } = 1.0f;
+    [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
     private int FacingDirection { get; set; } = 1;
 
     private void Update()
@@ -16,20 +17,21 @@ public class PlayerMove : MonoBehaviour
     {
         Vector2 inputVector = SimpleInput.GetMoveAxisRaw();
         float absMovement = Mathf.Abs(inputVector.x);
+        Vector3 localscale = transform.localScale;
 
         if (absMovement > 0)
         {
-            float currentScaleX = Mathf.Abs(transform.localScale.x);
+            float currentScaleX = Mathf.Abs(localscale.x);
             FacingDirection = (inputVector.x < 0) ? -1 : 1;
             transform.localScale = new Vector3
-                (currentScaleX * FacingDirection, transform.localScale.y, transform.localScale.z);
+                (currentScaleX * FacingDirection, localscale.y, localscale.z);
         }
 
         if (inputVector != Vector2.zero)
         {
             Vector3 moveVec = inputVector;
 
-            transform.Translate(moveVec.normalized * moveSpeed * Time.deltaTime);
+            transform.Translate(moveVec.normalized * MoveSpeed * Time.deltaTime);
         }
     }
 }
