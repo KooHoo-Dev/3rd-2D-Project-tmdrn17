@@ -1,0 +1,2730 @@
+fileFormatVersion: 2
+guid: 84e1b53008b45d24aa29b686c702408e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3283381485017069826
+    second: CookSheet_0
+  - first:
+      213: 8438528918912784061
+    second: CookSheet_1
+  - first:
+      213: 6107377403651186492
+    second: CookSheet_2
+  - first:
+      213: -4076754595985238254
+    second: CookSheet_3
+  - first:
+      213: 7239388174547221740
+    second: CookSheet_4
+  - first:
+      213: 6802986616816559631
+    second: CookSheet_5
+  - first:
+      213: -4278442779423240601
+    second: CookSheet_6
+  - first:
+      213: -4381769225375464132
+    second: CookSheet_7
+  - first:
+      213: -4204948941792742224
+    second: CookSheet_8
+  - first:
+      213: -3566078712932682856
+    second: CookSheet_9
+  - first:
+      213: -3585159088285849849
+    second: CookSheet_10
+  - first:
+      213: -3955881023854905627
+    second: CookSheet_11
+  - first:
+      213: -8132220894412916466
+    second: CookSheet_12
+  - first:
+      213: -4027236080662266733
+    second: CookSheet_13
+  - first:
+      213: 5071006052698023884
+    second: CookSheet_14
+  - first:
+      213: 1366511115261815672
+    second: CookSheet_15
+  - first:
+      213: -3964696574440476892
+    second: CookSheet_16
+  - first:
+      213: -6451548057159217005
+    second: CookSheet_17
+  - first:
+      213: -1577171574564596812
+    second: CookSheet_18
+  - first:
+      213: 3021189202955473134
+    second: CookSheet_19
+  - first:
+      213: -4918554141597544465
+    second: CookSheet_20
+  - first:
+      213: 7717831581649026229
+    second: CookSheet_21
+  - first:
+      213: -4544400871769697450
+    second: CookSheet_22
+  - first:
+      213: 5832030424954254617
+    second: CookSheet_23
+  - first:
+      213: 684332514456493739
+    second: CookSheet_24
+  - first:
+      213: 2239539303916950640
+    second: CookSheet_25
+  - first:
+      213: -6765238280080599944
+    second: CookSheet_26
+  - first:
+      213: 8763542591691937054
+    second: CookSheet_27
+  - first:
+      213: 1617674858170794531
+    second: CookSheet_28
+  - first:
+      213: -4062921725106631619
+    second: CookSheet_29
+  - first:
+      213: -8570302350963240212
+    second: CookSheet_30
+  - first:
+      213: 1197789906731768325
+    second: CookSheet_31
+  - first:
+      213: -2368446729959399232
+    second: CookSheet_32
+  - first:
+      213: 869278809564047868
+    second: CookSheet_33
+  - first:
+      213: 4336484212633049241
+    second: CookSheet_34
+  - first:
+      213: 6547461651078202322
+    second: CookSheet_35
+  - first:
+      213: 3159667754218577649
+    second: CookSheet_36
+  - first:
+      213: -1892937609623775215
+    second: CookSheet_37
+  - first:
+      213: -9100504872043592478
+    second: CookSheet_38
+  - first:
+      213: 2055495905246394846
+    second: CookSheet_39
+  - first:
+      213: -250247917835427610
+    second: CookSheet_40
+  - first:
+      213: -7160025749143152075
+    second: CookSheet_41
+  - first:
+      213: 7999701320418928712
+    second: CookSheet_42
+  - first:
+      213: -1551424262826415896
+    second: CookSheet_43
+  - first:
+      213: 6665082835500496526
+    second: CookSheet_44
+  - first:
+      213: 1860706906757266266
+    second: CookSheet_45
+  - first:
+      213: -4292026938587119346
+    second: CookSheet_46
+  - first:
+      213: -4873479374710908766
+    second: CookSheet_47
+  - first:
+      213: 2275124285702158631
+    second: CookSheet_48
+  - first:
+      213: -1896779290361859196
+    second: CookSheet_49
+  - first:
+      213: 1804059593606230366
+    second: CookSheet_50
+  - first:
+      213: 6598000591115875239
+    second: CookSheet_51
+  - first:
+      213: -3577945934017712896
+    second: CookSheet_52
+  - first:
+      213: 6919657211497069580
+    second: CookSheet_53
+  - first:
+      213: -4373462253973411116
+    second: CookSheet_54
+  - first:
+      213: -750139809433857055
+    second: CookSheet_55
+  - first:
+      213: -5662349195648551850
+    second: CookSheet_56
+  - first:
+      213: 5994761192784368205
+    second: CookSheet_57
+  - first:
+      213: 1651226695528784605
+    second: CookSheet_58
+  - first:
+      213: 4583522612029657130
+    second: CookSheet_59
+  - first:
+      213: -7321796588684152976
+    second: CookSheet_60
+  - first:
+      213: -852043327134669025
+    second: CookSheet_61
+  - first:
+      213: 6262304247642753755
+    second: CookSheet_62
+  - first:
+      213: -6720474486021573130
+    second: CookSheet_63
+  - first:
+      213: -3931756642810855554
+    second: CookSheet_64
+  - first:
+      213: 2074891421194845372
+    second: CookSheet_65
+  - first:
+      213: 3462622397206101280
+    second: CookSheet_66
+  - first:
+      213: -2836127467890085633
+    second: CookSheet_67
+  - first:
+      213: -721234920106155202
+    second: CookSheet_68
+  - first:
+      213: -7622669690034951344
+    second: CookSheet_69
+  - first:
+      213: -2607068373214254089
+    second: CookSheet_70
+  - first:
+      213: 8966237912103283040
+    second: CookSheet_71
+  - first:
+      213: -7102564142019807177
+    second: CookSheet_72
+  - first:
+      213: 1995783880409752955
+    second: CookSheet_73
+  - first:
+      213: -4661253893407106649
+    second: CookSheet_74
+  - first:
+      213: -5261830114420608127
+    second: CookSheet_75
+  - first:
+      213: 1629156764272564519
+    second: CookSheet_76
+  - first:
+      213: 4196640182470713264
+    second: CookSheet_77
+  - first:
+      213: 391015440251856170
+    second: CookSheet_78
+  - first:
+      213: 8698035844579975107
+    second: CookSheet_79
+  - first:
+      213: -2907392743807607778
+    second: CookSheet_80
+  - first:
+      213: -2576881616518210707
+    second: CookSheet_81
+  - first:
+      213: -2029904332222435708
+    second: CookSheet_82
+  - first:
+      213: 2008837857451857647
+    second: CookSheet_83
+  - first:
+      213: 6618665024867833878
+    second: CookSheet_84
+  - first:
+      213: -8882942915630073627
+    second: CookSheet_85
+  - first:
+      213: -4960963468523588229
+    second: CookSheet_86
+  - first:
+      213: -7223083515187298942
+    second: CookSheet_87
+  - first:
+      213: -8351974876336593267
+    second: CookSheet_88
+  - first:
+      213: 4276507130280467021
+    second: CookSheet_89
+  - first:
+      213: -6720978199724391852
+    second: CookSheet_90
+  - first:
+      213: 8979594535823463556
+    second: CookSheet_91
+  - first:
+      213: -7681074944504588472
+    second: CookSheet_92
+  - first:
+      213: -7249427602038062494
+    second: CookSheet_93
+  - first:
+      213: 3331126231223606025
+    second: CookSheet_94
+  - first:
+      213: -2407228984609895437
+    second: CookSheet_95
+  - first:
+      213: 5401487375570252665
+    second: CookSheet_96
+  - first:
+      213: 8232451718497975108
+    second: CookSheet_97
+  - first:
+      213: 375215122736538893
+    second: CookSheet_98
+  - first:
+      213: -1614049088212337286
+    second: CookSheet_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CookSheet_0
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 8622
+        width: 215
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2097984801ae09d20800000000000000
+      internalID: 3283381485017069826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 8625
+        width: 245
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db658aea75dab1570800000000000000
+      internalID: 8438528918912784061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 8612
+        width: 248
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f50ede363c1c450800000000000000
+      internalID: 6107377403651186492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 8611
+        width: 233
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217dbd56b457c67c0800000000000000
+      internalID: -4076754595985238254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 8612
+        width: 173
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecfc075039777460800000000000000
+      internalID: 7239388174547221740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 8162
+        width: 198
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f066613c840196e50800000000000000
+      internalID: 6802986616816559631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 8171
+        width: 214
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e84a4d5faef94c0800000000000000
+      internalID: -4278442779423240601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 8167
+        width: 249
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35c1c9ea14d033c0800000000000000
+      internalID: -4381769225375464132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 8160
+        width: 244
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4f9c9573505a5c0800000000000000
+      internalID: -4204948941792742224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 8161
+        width: 210
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893b092fd4eb28ec0800000000000000
+      internalID: -3566078712932682856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 7712
+        width: 188
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707657fddc4fe3ec0800000000000000
+      internalID: -3585159088285849849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 7725
+        width: 210
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e67b6ffa23e919c0800000000000000
+      internalID: -3955881023854905627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 7711
+        width: 202
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e093281de2c842f80800000000000000
+      internalID: -8132220894412916466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 7712
+        width: 177
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c3d713f126c18c0800000000000000
+      internalID: -4027236080662266733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 7714
+        width: 237
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7ebe83325df5640800000000000000
+      internalID: 5071006052698023884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 7265
+        width: 251
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87badc68e92d6f210800000000000000
+      internalID: 1366511115261815672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 7261
+        width: 236
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f644ea8719af8c0800000000000000
+      internalID: -3964696574440476892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 7262
+        width: 184
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390d9a9493f7776a0800000000000000
+      internalID: -6451548057159217005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 7262
+        width: 197
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3db342fc2cc1ae0800000000000000
+      internalID: -1577171574564596812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 7265
+        width: 213
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee01869b29b6de920800000000000000
+      internalID: 3021189202955473134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 6812
+        width: 186
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef4d8d5119cdbbb0800000000000000
+      internalID: -4918554141597544465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 6812
+        width: 198
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc3b74ceee3b1b60800000000000000
+      internalID: 7717831581649026229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 6814
+        width: 237
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65311310c7b0fe0c0800000000000000
+      internalID: -4544400871769697450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 6821
+        width: 250
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9153ba6a5c88fe050800000000000000
+      internalID: 5832030424954254617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_24
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 6811
+        width: 236
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baedd60dbcc3f7900800000000000000
+      internalID: 684332514456493739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_25
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 6361
+        width: 213
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074de7e9121741f10800000000000000
+      internalID: 2239539303916950640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 6362
+        width: 182
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874dbe6c0ab0d12a0800000000000000
+      internalID: -6765238280080599944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 6374
+        width: 209
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ddcf4e8b5e9970800000000000000
+      internalID: 8763542591691937054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 6364
+        width: 209
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322c95376b2237610800000000000000
+      internalID: 1617674858170794531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 6362
+        width: 178
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c4dc0a73a9d97c0800000000000000
+      internalID: -4062921725106631619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_30
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 5912
+        width: 214
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce214215b6b201980800000000000000
+      internalID: -8570302350963240212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 5913
+        width: 230
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a9b42f2976f9010800000000000000
+      internalID: 1197789906731768325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 5915
+        width: 250
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0a5576f36912fd0800000000000000
+      internalID: -2368446729959399232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 5911
+        width: 238
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9e6deb87c401c00800000000000000
+      internalID: 869278809564047868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 5912
+        width: 201
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998151c6a694e2c30800000000000000
+      internalID: 4336484212633049241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_35
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 5471
+        width: 248
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d342058ea14dda50800000000000000
+      internalID: 6547461651078202322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 5460
+        width: 247
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe5472f41569db20800000000000000
+      internalID: 3159667754218577649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 5461
+        width: 222
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118d564f54feab5e0800000000000000
+      internalID: -1892937609623775215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 5462
+        width: 181
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e44121190384b180800000000000000
+      internalID: -9100504872043592478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_39
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 5473
+        width: 212
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed93b75a2a6968c10800000000000000
+      internalID: 2055495905246394846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_40
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 5014
+        width: 211
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e063a738d0f68cf0800000000000000
+      internalID: -250247917835427610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 5012
+        width: 188
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a1caf348a72ac90800000000000000
+      internalID: -7160025749143152075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 5012
+        width: 211
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8482bc877f5a40f60800000000000000
+      internalID: 7999701320418928712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 5013
+        width: 234
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e82f4e4adb387ae0800000000000000
+      internalID: -1551424262826415896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_44
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 5019
+        width: 249
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e867f8896812f7c50800000000000000
+      internalID: 6665082835500496526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_45
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 4559
+        width: 245
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bf160c21f82d910800000000000000
+      internalID: 1860706906757266266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 4561
+        width: 228
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e018b1f4d38af64c0800000000000000
+      internalID: -4292026938587119346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 4562
+        width: 181
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8d92a545ced5cb0800000000000000
+      internalID: -4873479374710908766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_48
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 4562
+        width: 199
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7293425db7dd29f10800000000000000
+      internalID: 2275124285702158631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_49
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 4568
+        width: 215
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483f9a4f8494da5e0800000000000000
+      internalID: -1896779290361859196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_50
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 4112
+        width: 198
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51f88e54ae490910800000000000000
+      internalID: 1804059593606230366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 4112
+        width: 181
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a37745749ec09b50800000000000000
+      internalID: 6598000591115875239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 4113
+        width: 219
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d22593125985ec0800000000000000
+      internalID: -3577945934017712896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 4114
+        width: 237
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cb0ca629f870060800000000000000
+      internalID: 6919657211497069580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 4121
+        width: 248
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dae55960475e43c0800000000000000
+      internalID: -4373462253973411116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_55
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3661
+        width: 249
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3d0d651d7f695f0800000000000000
+      internalID: -750139809433857055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3661
+        width: 236
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654362f286b4b61b0800000000000000
+      internalID: -5662349195648551850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3662
+        width: 202
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4295311b8ba13350800000000000000
+      internalID: 5994761192784368205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 3662
+        width: 184
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2a2a65ee55ae610800000000000000
+      internalID: 1651226695528784605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_59
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 3670
+        width: 214
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a209ff5f781fb9f30800000000000000
+      internalID: 4583522612029657130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_60
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3212
+        width: 205
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f60dd8bc0c36a90800000000000000
+      internalID: -7321796588684152976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 3212
+        width: 185
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1765e8bb1fec24f0800000000000000
+      internalID: -852043327134669025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3212
+        width: 214
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda8a2cb88c28e650800000000000000
+      internalID: 6262304247642753755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_63
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 3213
+        width: 235
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5bb92cf041cb2a0800000000000000
+      internalID: -6720474486021573130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_64
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3219
+        width: 248
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ff9f92a289f69c0800000000000000
+      internalID: -3931756642810855554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_65
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2760
+        width: 247
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcf2db11ce7bcc10800000000000000
+      internalID: 2074891421194845372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2761
+        width: 231
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02df7c879b4bd0030800000000000000
+      internalID: 3462622397206101280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2762
+        width: 187
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0feaa281d04a8d0800000000000000
+      internalID: -2836127467890085633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 2762
+        width: 194
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33277359a8adf5f0800000000000000
+      internalID: -721234920106155202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_69
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 2769
+        width: 216
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b6455bd46d63690800000000000000
+      internalID: -7622669690034951344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_70
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2311
+        width: 202
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba86d9025d1dbd0800000000000000
+      internalID: -2607068373214254089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 2312
+        width: 181
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0696e8a30e97e6c70800000000000000
+      internalID: 8966237912103283040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2312
+        width: 219
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7387b783b8f9e6d90800000000000000
+      internalID: -7102564142019807177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2314
+        width: 237
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7526487dd272bb10800000000000000
+      internalID: 1995783880409752955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_74
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 2318
+        width: 249
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a91093c746ef4fb0800000000000000
+      internalID: -4661253893407106649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_75
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1860
+        width: 243
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b189a3693af6b0800000000000000
+      internalID: -5261830114420608127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_76
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1861
+        width: 224
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72914e9027deb9610800000000000000
+      internalID: 1629156764272564519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1861
+        width: 176
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf1c4ed2067d3a30800000000000000
+      internalID: 4196640182470713264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_78
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 1862
+        width: 201
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25a7e1a87a2d6500800000000000000
+      internalID: 391015440251856170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_79
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1867
+        width: 215
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfddc73481a5b870800000000000000
+      internalID: 8698035844579975107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_80
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1412
+        width: 193
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c9cca14bdd6a7d0800000000000000
+      internalID: -2907392743807607778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1412
+        width: 182
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b923b92d31d3cd0800000000000000
+      internalID: -2576881616518210707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1412
+        width: 224
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48eead5c3c454d3e0800000000000000
+      internalID: -2029904332222435708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1414
+        width: 237
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe656c85363d0eb10800000000000000
+      internalID: 2008837857451857647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_84
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1420
+        width: 248
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6189c8ed5c83adb50800000000000000
+      internalID: 6618665024867833878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_85
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 960
+        width: 249
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8fbc96b7279b480800000000000000
+      internalID: -8882942915630073627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 961
+        width: 237
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7536fa720e172bb0800000000000000
+      internalID: -4960963468523588229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 962
+        width: 199
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28df74effc372cb90800000000000000
+      internalID: -7223083515187298942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_88
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 962
+        width: 186
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8668f2c913d71c80800000000000000
+      internalID: -8351974876336593267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_89
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 971
+        width: 212
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4adacbb394395b30800000000000000
+      internalID: 4276507130280467021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_90
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 512
+        width: 203
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4528846cfe94ab2a0800000000000000
+      internalID: -6720978199724391852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 512
+        width: 182
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484dbc687aded9c70800000000000000
+      internalID: 8979594535823463556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 513
+        width: 221
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84796a7b807576590800000000000000
+      internalID: -7681074944504588472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_93
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 514
+        width: 238
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2620c9b410cd46b90800000000000000
+      internalID: -7249427602038062494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_94
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 516
+        width: 249
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b911288a98a3e20800000000000000
+      internalID: 3331126231223606025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_95
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 60
+        width: 243
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb8d471efdc79ed0800000000000000
+      internalID: -2407228984609895437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_96
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 62
+        width: 222
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9733f975620f5fa40800000000000000
+      internalID: 5401487375570252665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 62
+        width: 185
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b30a7783b8f3270800000000000000
+      internalID: 8232451718497975108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_98
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 64
+        width: 203
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05e0198a28053500800000000000000
+      internalID: 375215122736538893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookSheet_99
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 63
+        width: 209
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d7f07e7eeb999e0800000000000000
+      internalID: -1614049088212337286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CookSheet_0: 3283381485017069826
+      CookSheet_1: 8438528918912784061
+      CookSheet_10: -3585159088285849849
+      CookSheet_11: -3955881023854905627
+      CookSheet_12: -8132220894412916466
+      CookSheet_13: -4027236080662266733
+      CookSheet_14: 5071006052698023884
+      CookSheet_15: 1366511115261815672
+      CookSheet_16: -3964696574440476892
+      CookSheet_17: -6451548057159217005
+      CookSheet_18: -1577171574564596812
+      CookSheet_19: 3021189202955473134
+      CookSheet_2: 6107377403651186492
+      CookSheet_20: -4918554141597544465
+      CookSheet_21: 7717831581649026229
+      CookSheet_22: -4544400871769697450
+      CookSheet_23: 5832030424954254617
+      CookSheet_24: 684332514456493739
+      CookSheet_25: 2239539303916950640
+      CookSheet_26: -6765238280080599944
+      CookSheet_27: 8763542591691937054
+      CookSheet_28: 1617674858170794531
+      CookSheet_29: -4062921725106631619
+      CookSheet_3: -4076754595985238254
+      CookSheet_30: -8570302350963240212
+      CookSheet_31: 1197789906731768325
+      CookSheet_32: -2368446729959399232
+      CookSheet_33: 869278809564047868
+      CookSheet_34: 4336484212633049241
+      CookSheet_35: 6547461651078202322
+      CookSheet_36: 3159667754218577649
+      CookSheet_37: -1892937609623775215
+      CookSheet_38: -9100504872043592478
+      CookSheet_39: 2055495905246394846
+      CookSheet_4: 7239388174547221740
+      CookSheet_40: -250247917835427610
+      CookSheet_41: -7160025749143152075
+      CookSheet_42: 7999701320418928712
+      CookSheet_43: -1551424262826415896
+      CookSheet_44: 6665082835500496526
+      CookSheet_45: 1860706906757266266
+      CookSheet_46: -4292026938587119346
+      CookSheet_47: -4873479374710908766
+      CookSheet_48: 2275124285702158631
+      CookSheet_49: -1896779290361859196
+      CookSheet_5: 6802986616816559631
+      CookSheet_50: 1804059593606230366
+      CookSheet_51: 6598000591115875239
+      CookSheet_52: -3577945934017712896
+      CookSheet_53: 6919657211497069580
+      CookSheet_54: -4373462253973411116
+      CookSheet_55: -750139809433857055
+      CookSheet_56: -5662349195648551850
+      CookSheet_57: 5994761192784368205
+      CookSheet_58: 1651226695528784605
+      CookSheet_59: 4583522612029657130
+      CookSheet_6: -4278442779423240601
+      CookSheet_60: -7321796588684152976
+      CookSheet_61: -852043327134669025
+      CookSheet_62: 6262304247642753755
+      CookSheet_63: -6720474486021573130
+      CookSheet_64: -3931756642810855554
+      CookSheet_65: 2074891421194845372
+      CookSheet_66: 3462622397206101280
+      CookSheet_67: -2836127467890085633
+      CookSheet_68: -721234920106155202
+      CookSheet_69: -7622669690034951344
+      CookSheet_7: -4381769225375464132
+      CookSheet_70: -2607068373214254089
+      CookSheet_71: 8966237912103283040
+      CookSheet_72: -7102564142019807177
+      CookSheet_73: 1995783880409752955
+      CookSheet_74: -4661253893407106649
+      CookSheet_75: -5261830114420608127
+      CookSheet_76: 1629156764272564519
+      CookSheet_77: 4196640182470713264
+      CookSheet_78: 391015440251856170
+      CookSheet_79: 8698035844579975107
+      CookSheet_8: -4204948941792742224
+      CookSheet_80: -2907392743807607778
+      CookSheet_81: -2576881616518210707
+      CookSheet_82: -2029904332222435708
+      CookSheet_83: 2008837857451857647
+      CookSheet_84: 6618665024867833878
+      CookSheet_85: -8882942915630073627
+      CookSheet_86: -4960963468523588229
+      CookSheet_87: -7223083515187298942
+      CookSheet_88: -8351974876336593267
+      CookSheet_89: 4276507130280467021
+      CookSheet_9: -3566078712932682856
+      CookSheet_90: -6720978199724391852
+      CookSheet_91: 8979594535823463556
+      CookSheet_92: -7681074944504588472
+      CookSheet_93: -7249427602038062494
+      CookSheet_94: 3331126231223606025
+      CookSheet_95: -2407228984609895437
+      CookSheet_96: 5401487375570252665
+      CookSheet_97: 8232451718497975108
+      CookSheet_98: 375215122736538893
+      CookSheet_99: -1614049088212337286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
