@@ -4,38 +4,32 @@ using Study.Utilities;
 
 public class PlayerMove : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 1.0f;
-
-    private void Start()
-    {
-
-    }
+    [field: SerializeField] private float moveSpeed { get; set; } = 1.0f;
+    private int FacingDirection { get; set; } = 1;
 
     private void Update()
     {
-        if (SimpleInput.GetKey(Key.RightArrow))
-        {
-            Move(Vector3.right);
-        }
-        if (SimpleInput.GetKey(Key.LeftArrow))
-        {
-            Move(Vector3.left);
-        }
-        if (SimpleInput.GetKey(Key.UpArrow))
-        {
-            Move(Vector3.up);
-        }
-        if (SimpleInput.GetKey(Key.DownArrow))
-        {
-            Move(Vector3.down);
-        }
+        Move();
     }
 
-    private void Move(Vector3 vector3)
+    private void Move()
     {
-        Vector3 moveVec = Vector3.zero;
+        Vector2 inputVector = SimpleInput.GetMoveAxisRaw();
+        float absMovement = Mathf.Abs(inputVector.x);
 
-        moveVec += vector3;
-        transform.Translate(moveVec.normalized * moveSpeed * Time.deltaTime);
+        if (absMovement > 0)
+        {
+            float currentScaleX = Mathf.Abs(transform.localScale.x);
+            FacingDirection = (inputVector.x < 0) ? -1 : 1;
+            transform.localScale = new Vector3
+                (currentScaleX * FacingDirection, transform.localScale.y, transform.localScale.z);
+        }
+
+        if (inputVector != Vector2.zero)
+        {
+            Vector3 moveVec = inputVector;
+
+            transform.Translate(moveVec.normalized * moveSpeed * Time.deltaTime);
+        }
     }
 }
