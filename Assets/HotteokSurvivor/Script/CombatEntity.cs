@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Study_ActionPlatformer
+namespace HotteokSurvivor
 {
     // # CombatEntity - 전투에 참여하는 모든 개체의 공통 부모(추상 클래스)
     // - Player 개체와 Enemy 개체로 구성되며 원활한 개발을 위해 Dummy 개체도 포함된다
@@ -16,13 +16,10 @@ namespace Study_ActionPlatformer
         [field: SerializeField] public virtual BaseStat BaseStat { get; }
 
         public abstract void TakeDamage(int damage);
-        public abstract void TakeHeal(int heal);
 
-        // "받는 쪽 사정"에 따라 최종 데미지를 계산하는 함수. 기본은 보정이 없음.
-        // 단순히 예상 데미지를 출력하는데도 활용된다.
-        public virtual int CalculateFinalDamage(int damage)
+        public virtual void TakeHeal(int heal)
         {
-            return damage;
+
         }
     }
 }

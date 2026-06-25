@@ -1,8 +1,25 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+namespace HotteokSurvivor
 {
-    [SerializeField] int maxHp;
+    public class PlayerStat : BaseStat
+    {
+        public int exp;
+    }
 
-    private int exp;
+    public class Player : CombatEntity
+    {
+        [field: SerializeField] private PlayerStat Stat { get; set; }
+        public override BaseStat BaseStat => Stat;
+
+        public override void TakeDamage(int damage)
+        {
+            
+        }
+
+        public void LevelUp()
+        {
+
+        }
+    }
 }

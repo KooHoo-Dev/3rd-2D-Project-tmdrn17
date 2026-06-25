@@ -1,54 +1,58 @@
 using Study.Utilities;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+namespace HotteokSurvivor
 {
-    private const float STOPPING_DISTANCE = 0.1f;
-
-    [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
-    [field: SerializeField] private GameObject Target { get; set; }
-    private int FacingDirection { get; set; } = 1;
-
-    private void Update()
+    public class EnemyMove : MonoBehaviour
     {
-        Move();
-    }
+        private const float STOPPING_DISTANCE = 0.1f;
 
-    private void Move()
-    {
-        Vector2 inputVector = Target.transform.position - transform.position;
-        Vector3 localscale = transform.localScale;
+        [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
+        [field: SerializeField] private GameObject Target { get; set; }
+        private int FacingDirection { get; set; } = 1;
 
-        float absMovement = Mathf.Abs(inputVector.x);
-        float currentScaleX = Mathf.Abs(localscale.x);
-
-        if (inputVector != Vector2.zero)
+        private void Update()
         {
-            if (transform.IsInRange(Target.transform.position, STOPPING_DISTANCE))
-            {
-                return;
-            }
-            else
-            {
-                Vector3 moveVec = inputVector;
-
-                transform.Translate(moveVec.normalized * MoveSpeed * Time.deltaTime);
-            }
+            Move();
         }
 
-        if (absMovement > 0)
+        private void Move()
         {
-            if(transform.IsInRange(Target.transform.position, STOPPING_DISTANCE))
+            Vector2 inputVector = Target.transform.position - transform.position;
+            Vector3 localscale = transform.localScale;
+
+            float absMovement = Mathf.Abs(inputVector.x);
+            float currentScaleX = Mathf.Abs(localscale.x);
+
+            if (inputVector != Vector2.zero)
             {
-                transform.localScale = new Vector3
-                    (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                if (transform.IsInRange(Target.transform.position, STOPPING_DISTANCE))
+                {
+                    return;
+                }
+                else
+                {
+                    Vector3 moveVec = inputVector;
+
+                    transform.Translate(moveVec.normalized * MoveSpeed * Time.deltaTime);
+                }
             }
-            else
+
+            if (absMovement > 0)
             {
-                FacingDirection = (inputVector.x < 0) ? -1 : 1;
-                transform.localScale = new Vector3
-                    (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                if (transform.IsInRange(Target.transform.position, STOPPING_DISTANCE))
+                {
+                    transform.localScale = new Vector3
+                        (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                }
+                else
+                {
+                    FacingDirection = (inputVector.x < 0) ? -1 : 1;
+                    transform.localScale = new Vector3
+                        (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                }
             }
         }
     }
+
 }

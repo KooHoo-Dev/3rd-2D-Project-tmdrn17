@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+namespace HotteokSurvivor
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public abstract class Enemy : CombatEntity
     {
-        
-    }
+        [field: SerializeField] private BaseStat Stat { get; set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public override void TakeDamage(int damage)
+        {
+            if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
+            {
+                Debug.Log("Enemy is Dead");
+            }
+            else
+            {
+                Debug.Log("Enemy is Damaged");
+            }
+        }
     }
 }

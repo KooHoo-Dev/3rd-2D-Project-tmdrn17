@@ -1,37 +1,39 @@
 using Study.Utilities;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.GraphicsBuffer;
 
-public class PlayerMove : MonoBehaviour
+namespace HotteokSurvivor
 {
-    [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
-    private int FacingDirection { get; set; } = 1;
-
-    private void Update()
+    public class PlayerMove : MonoBehaviour
     {
-        Move();
-    }
+        [field: SerializeField] private float MoveSpeed { get; set; } = 1.0f;
+        private int FacingDirection { get; set; } = 1;
 
-    private void Move()
-    {
-        Vector2 inputVector = SimpleInput.GetMoveAxisRaw();
-        float absMovement = Mathf.Abs(inputVector.x);
-        Vector3 localscale = transform.localScale;
-
-        if (absMovement > 0)
+        private void Update()
         {
-            float currentScaleX = Mathf.Abs(localscale.x);
-            FacingDirection = (inputVector.x < 0) ? -1 : 1;
-            transform.localScale = new Vector3
-                (currentScaleX * FacingDirection, localscale.y, localscale.z);
+            Move();
         }
 
-        if (inputVector != Vector2.zero)
+        private void Move()
         {
-            Vector3 moveVec = inputVector;
+            Vector2 inputVector = SimpleInput.GetMoveAxisRaw();
+            float absMovement = Mathf.Abs(inputVector.x);
+            Vector3 localscale = transform.localScale;
 
-            transform.Translate(moveVec.normalized * MoveSpeed * Time.deltaTime);
+            if (absMovement > 0)
+            {
+                float currentScaleX = Mathf.Abs(localscale.x);
+                FacingDirection = (inputVector.x < 0) ? -1 : 1;
+                transform.localScale = new Vector3
+                    (currentScaleX * FacingDirection, localscale.y, localscale.z);
+            }
+
+            if (inputVector != Vector2.zero)
+            {
+                Vector3 moveVec = inputVector;
+
+                transform.Translate(moveVec.normalized * MoveSpeed * Time.deltaTime);
+            }
         }
     }
 }
