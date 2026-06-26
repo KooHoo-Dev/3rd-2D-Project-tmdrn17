@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Study.Utilities;
 
 namespace HotteokSurvivor
 {
-    public class GridManager : MonoBehaviour
+    public class GridManager : SingletonBase<GridManager>
     {
-        public static GridManager Instance;
-
+        
         // 격자 한 칸의 크기 (예: 5x5 단위로 방을 나눔)
         public float cellSize = 5f;
 
@@ -28,6 +28,21 @@ namespace HotteokSurvivor
                 List<Enemy> newEnemies = new List<Enemy>();
                 newEnemies.Add(enemy);
                 grid.Add(cellIndex, newEnemies);
+            }
+        }
+
+        public void DeleteToCell(Vector2Int cellIndex, Enemy enemy)
+        {
+            List<Enemy> enemies = grid[cellIndex];
+
+            if (enemies.Count > 0)
+            {
+                enemies.Remove(enemy);
+            }
+            else
+            {
+                enemies.Remove(enemy);
+                grid.Remove(cellIndex);
             }
         }
 
