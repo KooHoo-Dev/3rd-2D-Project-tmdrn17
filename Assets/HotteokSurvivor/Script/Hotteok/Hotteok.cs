@@ -14,18 +14,37 @@ namespace HotteokSurvivor
         [SerializeField] protected float hitRadius = 1f;
         [SerializeField] protected int damage;
 
-        protected virtual void Start()
+        Vector2Int checkCell;
+
+        protected virtual void OnEnable()
         {
+            startPos = transform.parent;
             transform.position = startPos.position;
-            gameObject.SetActive(true);
+            enemy = null;
+            SearchEnemy();
         }
 
-        protected void Update()
+        public void Update()
         {
-            transform.position += Vector3.up * shotSpeed * Time.deltaTime;
+            SearchEnemy();
+
+            Move();
 
             float distance = Vector2.Distance(startPos.position, transform.position);
 
+            if (distance >= endDistance)
+            {
+                transform.position = startPos.position;
+                gameObject.SetActive(false);
+            }
+        }
+
+        protected abstract void Move();
+
+        protected abstract void SendDamage();
+
+        private void SearchEnemy()
+        {
             // 1. 총알의 현재 방 번호 구하기
             Vector2Int myCell = GridManager.Instance.GetCellIndex(transform.position);
 
@@ -34,15 +53,16 @@ namespace HotteokSurvivor
             {
                 for (int y = -1; y <= 1; y++)
                 {
-                    Vector2Int checkCell = myCell + new Vector2Int(x, y);
+                    checkCell = myCell + new Vector2Int(x, y);
 
                     // 해당 방에 적들이 있다면?
                     if (GridManager.Instance.grid.TryGetValue(checkCell, out List<Enemy> enemies))
                     {
+                        Debug.Log("Enemy is in");
                         // 3. 그 방에 있는 소수의 적들과만 거리 계산!
                         for (int i = 0; i < enemies.Count; i++)
                         {
-                            Enemy enemy = enemies[i];
+                            enemy = enemies[i];
 
                             // sqrMagnitude로 고속 거리 연산
                             float sqrDistance = (transform.position - enemy.transform.position).sqrMagnitude;
@@ -50,20 +70,12 @@ namespace HotteokSurvivor
 
                             if (sqrDistance <= combinedRadius * combinedRadius)
                             {
-                                enemy.TakeDamage(10);
-                                transform.position = startPos.position;
-                                gameObject.SetActive(false);
+                                SendDamage();
                                 return; // 하나 맞췄으면 총알 검사 즉시 종료!
                             }
                         }
                     }
                 }
-            }
-
-            if (distance >= endDistance)
-            {
-                transform.position = startPos.position;
-                gameObject.SetActive(false);
             }
         }
 

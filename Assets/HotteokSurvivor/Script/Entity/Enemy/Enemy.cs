@@ -18,8 +18,6 @@ namespace HotteokSurvivor
             gridManager.AddToCell(currentPos, this);
 
             Stat.ResetToFull();
-
-            Debug.Log($"Add To {currentPos}!");
         }
 
         protected virtual void Update()
@@ -32,7 +30,6 @@ namespace HotteokSurvivor
             {
                 gridManager.DeleteToCell(currentPos, this);
                 gridManager.AddToCell(newPos, this);
-                Debug.Log($"{currentPos} To {newPos} Renewal!");
                 currentPos = newPos; // 현재 방 번호 갱신
             }
         }
