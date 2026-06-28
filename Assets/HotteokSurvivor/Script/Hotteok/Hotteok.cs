@@ -14,6 +14,8 @@ namespace HotteokSurvivor
         [SerializeField] protected float hitRadius = 1f;
         [SerializeField] protected int damage;
 
+        public HashSet<Enemy> HitEnemies = new HashSet<Enemy>();
+
         Vector2Int checkCell;
 
         protected virtual void OnEnable()
@@ -21,6 +23,7 @@ namespace HotteokSurvivor
             startPos = transform.parent;
             transform.position = startPos.position;
             enemy = null;
+            HitEnemies.Clear();
             SearchEnemy();
         }
 
@@ -43,7 +46,7 @@ namespace HotteokSurvivor
 
         protected abstract void SendDamage();
 
-        private void SearchEnemy()
+        protected virtual void SearchEnemy()
         {
             // 1. 총알의 현재 방 번호 구하기
             Vector2Int myCell = GridManager.Instance.GetCellIndex(transform.position);
@@ -58,18 +61,20 @@ namespace HotteokSurvivor
                     // 해당 방에 적들이 있다면?
                     if (GridManager.Instance.grid.TryGetValue(checkCell, out List<Enemy> enemies))
                     {
-                        Debug.Log("Enemy is in");
                         // 3. 그 방에 있는 소수의 적들과만 거리 계산!
                         for (int i = 0; i < enemies.Count; i++)
                         {
                             enemy = enemies[i];
 
-                            // sqrMagnitude로 고속 거리 연산
                             float sqrDistance = (transform.position - enemy.transform.position).sqrMagnitude;
                             float combinedRadius = hitRadius + enemy.hitRadius;
 
-                            if (sqrDistance <= combinedRadius * combinedRadius)
+                            bool enemyHit = HitEnemies.Contains(enemy);
+                            bool isIn = sqrDistance <= combinedRadius * combinedRadius;
+
+                            if (isIn && (enemyHit == false))
                             {
+                                HitEnemies.Add(enemy);
                                 SendDamage();
                                 return; // 하나 맞췄으면 총알 검사 즉시 종료!
                             }

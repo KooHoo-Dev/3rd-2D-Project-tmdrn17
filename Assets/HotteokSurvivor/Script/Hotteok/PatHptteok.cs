@@ -1,12 +1,13 @@
 using HotteokSurvivor;
 using Study.Utilities;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace HotteokSurvivor
 {
     public class PatHptteok : Hotteok
     {
-        public bool isAttack = false;
+
 
         protected override void OnEnable()
         {
@@ -22,8 +23,7 @@ namespace HotteokSurvivor
         protected override void SendDamage()
         {
             enemy.TakeDamage(damage);
-            isAttack = true;
-            Debug.Log("is Attack!");
+            Debug.Log($"{enemy.gameObject.name}");
         }
 
         private void RotateZ()

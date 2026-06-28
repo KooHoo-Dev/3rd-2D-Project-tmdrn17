@@ -10,18 +10,21 @@ namespace HotteokSurvivor
 
         [SerializeField] private NormalHotteok normalHotteok;
         [SerializeField] private PatHptteok patHotteok;
+        [SerializeField] private DdalgiHotteok ddalgiHotteok;
 
         private ComponentPool<NormalHotteok> normalPool;
         private ComponentPool<PatHptteok> patPool;
+        private ComponentPool<DdalgiHotteok> ddalgiPool;
 
         [SerializeField] List<NormalHotteok> normalHotteoks = new List<NormalHotteok>();
         [SerializeField] List<PatHptteok> patHotteoks = new List<PatHptteok>();
+        [SerializeField] List<DdalgiHotteok> ddalgiHotteoks = new List<DdalgiHotteok>();
 
         private void Start()
         {
-            patPool = new ComponentPool<PatHptteok>(patHotteok, hotteokMuzzle);
+/*            patPool = new ComponentPool<PatHptteok>(patHotteok, hotteokMuzzle);
 
-            patHotteoks.Add(patPool.Get());
+            patHotteoks.Add(patPool.Get());*/
         }
 
         private void Update()
