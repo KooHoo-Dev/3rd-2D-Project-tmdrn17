@@ -8,11 +8,11 @@ namespace HotteokSurvivor
     {
         [SerializeField] protected float stoppingDistance = 0.1f;
 
-        [field: SerializeField] private BaseStat Stat { get; set; }
+        [field: SerializeField] protected BaseStat Stat { get; set; }
         private GridManager gridManager;
         private Vector2Int currentPos;
 
-        [SerializeField] protected GameObject Target;
+        [SerializeField] protected Player Target;
 
         protected virtual void Start()
         {

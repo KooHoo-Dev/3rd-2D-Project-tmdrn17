@@ -14,6 +14,11 @@ namespace HotteokSurvivor
         [field: SerializeField] private PlayerStat Stat { get; set; }
         public override BaseStat BaseStat => Stat;
 
+        private void Start()
+        {
+            Stat.ResetToFull();
+        }
+
         private void Update()
         {
             Move();
@@ -43,7 +48,14 @@ namespace HotteokSurvivor
 
         public override void TakeDamage(int damage)
         {
-            
+            if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
+            {
+                Debug.Log("is Dead");
+            }
+            else
+            {
+                Debug.Log("is Damaged");
+            }
         }
 
         public void LevelUp()

@@ -1,9 +1,14 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 namespace HotteokSurvivor
 {
     public class MeleeEnemy : Enemy
     {
+        private bool isAttack = false;
+        [SerializeField] private float damageCoolTime = 0.1f;
+
         protected override void Start()
         {
             base.Start();
@@ -12,6 +17,24 @@ namespace HotteokSurvivor
         protected override void Update()
         {
             base.Update();
+
+            float sqrDistance = (transform.position - Target.transform.position).sqrMagnitude;
+            float combinedRadius = hitRadius + Target.hitRadius;
+
+            bool isIn = sqrDistance <= combinedRadius * combinedRadius;
+
+            if (isIn && isAttack == false)
+            {
+                StartCoroutine(SendDamage());
+            }
+        }
+
+        private IEnumerator SendDamage()
+        {
+            Target.TakeDamage(Stat.Damage);
+            isAttack = true;
+            yield return new WaitForSeconds(damageCoolTime);
+            isAttack = false;
         }
 
         public override void TakeDamage(int damage)
