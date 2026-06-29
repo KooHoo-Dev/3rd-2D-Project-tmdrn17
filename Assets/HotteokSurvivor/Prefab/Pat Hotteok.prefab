@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4933905484638629950}
   - component: {fileID: 6031546322511698861}
   m_Layer: 0
-  m_Name: Pat Hotteok_0
+  m_Name: Pat Hotteok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

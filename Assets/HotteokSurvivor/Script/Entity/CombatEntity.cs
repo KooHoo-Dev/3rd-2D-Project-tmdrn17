@@ -14,10 +14,13 @@ namespace HotteokSurvivor
         // Hp 바 또는 이름등을 출력하기 위해 사용
         [field: SerializeField] public Transform HeadUpPivot { get; private set; }
         [field: SerializeField] public virtual BaseStat BaseStat { get; }
+        [field: SerializeField] public float hitRadius { get; private set; }
+
+        protected int FacingDirection = 1;
 
         public abstract void TakeDamage(int damage);
 
-        public virtual void TakeHeal(int heal)
+        protected virtual void Move()
         {
 
         }

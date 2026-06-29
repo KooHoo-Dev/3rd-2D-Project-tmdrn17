@@ -1,14 +1,18 @@
+using Study.Utilities;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 namespace HotteokSurvivor
 {
     public abstract class Enemy : CombatEntity
     {
+        [SerializeField] protected float stoppingDistance = 0.1f;
+
         [field: SerializeField] private BaseStat Stat { get; set; }
         private GridManager gridManager;
         private Vector2Int currentPos;
 
-        public float hitRadius;
+        [SerializeField] protected GameObject Target;
 
         protected virtual void Start()
         {
@@ -31,6 +35,46 @@ namespace HotteokSurvivor
                 gridManager.DeleteToCell(currentPos, this);
                 gridManager.AddToCell(newPos, this);
                 currentPos = newPos; // 현재 방 번호 갱신
+            }
+
+            Move();
+        }
+
+        protected override void Move()
+        {
+            Vector2 inputVector = Target.transform.position - transform.position;
+            Vector3 localscale = transform.localScale;
+
+            float absMovement = Mathf.Abs(inputVector.x);
+            float currentScaleX = Mathf.Abs(localscale.x);
+
+            if (inputVector != Vector2.zero)
+            {
+                if (transform.IsInRange(Target.transform.position, stoppingDistance))
+                {
+                    return;
+                }
+                else
+                {
+                    Vector3 moveVec = inputVector;
+
+                    transform.Translate(moveVec.normalized * Stat.MoveSpeed * Time.deltaTime);
+                }
+            }
+
+            if (absMovement > 0)
+            {
+                if (transform.IsInRange(Target.transform.position, stoppingDistance))
+                {
+                    transform.localScale = new Vector3
+                        (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                }
+                else
+                {
+                    FacingDirection = (inputVector.x < 0) ? -1 : 1;
+                    transform.localScale = new Vector3
+                        (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                }
             }
         }
 

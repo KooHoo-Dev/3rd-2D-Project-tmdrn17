@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4903611588307987668}
   - component: {fileID: 8473053845221843925}
   m_Layer: 0
-  m_Name: Nomal Hotteok_0
+  m_Name: Nomal Hotteok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
