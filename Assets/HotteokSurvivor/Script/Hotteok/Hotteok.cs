@@ -1,15 +1,26 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace HotteokSurvivor
 {
+    public enum HotteokName
+    {
+        Normal,
+        Pat,
+        Ddalgi,
+    }
+
     public abstract class Hotteok : MonoBehaviour
     {
+        [SerializeField] protected HotteokName name;
         [SerializeField] protected Enemy enemy;
+
         [SerializeField] protected Transform startPos;
         [SerializeField] protected float endDistance;
+
         [SerializeField] protected float shotSpeed;
         [SerializeField] protected float hitRadius = 1f;
         [SerializeField] protected int damage;
@@ -27,7 +38,7 @@ namespace HotteokSurvivor
             SearchEnemy();
         }
 
-        public void Update()
+        protected virtual void Update()
         {
             SearchEnemy();
 
@@ -46,7 +57,7 @@ namespace HotteokSurvivor
 
         protected abstract void SendDamage();
 
-        protected virtual void SearchEnemy()
+        protected void SearchEnemy()
         {
             // 1. 총알의 현재 방 번호 구하기
             Vector2Int myCell = GridManager.Instance.GetCellIndex(transform.position);
