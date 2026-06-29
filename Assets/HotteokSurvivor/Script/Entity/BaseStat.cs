@@ -9,7 +9,6 @@ namespace HotteokSurvivor
         [field: SerializeField] public int MaxHp { get; private set; }
         [field: SerializeField] public int DefensivePower { get; private set; }
         [field: SerializeField] public float MoveSpeed { get; set; } = 1.0f;
-        [field: SerializeField] public int Damage { get; private set; }
         [field: SerializeField] public int Hp { get; private set; }
         public bool isDead => (Hp <= 0);
 

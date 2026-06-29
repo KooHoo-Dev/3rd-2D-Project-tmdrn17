@@ -6,9 +6,6 @@ namespace HotteokSurvivor
 {
     public class MeleeEnemy : Enemy
     {
-        private bool isAttack = false;
-        [SerializeField] private float damageCoolTime = 0.1f;
-
         protected override void Start()
         {
             base.Start();
@@ -33,7 +30,7 @@ namespace HotteokSurvivor
         {
             Target.TakeDamage(Stat.Damage);
             isAttack = true;
-            yield return new WaitForSeconds(damageCoolTime);
+            yield return new WaitForSeconds(attackCoolTime);
             isAttack = false;
         }
 

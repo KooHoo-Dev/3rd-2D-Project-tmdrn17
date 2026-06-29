@@ -1,18 +1,28 @@
 using Study.Utilities;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 namespace HotteokSurvivor
 {
+    [System.Serializable]
+    public class EnemyStat : BaseStat
+    {
+        public int Damage;
+    }
+
     public abstract class Enemy : CombatEntity
     {
         [SerializeField] protected float stoppingDistance = 0.1f;
 
-        [field: SerializeField] protected BaseStat Stat { get; set; }
+        [field: SerializeField] protected EnemyStat Stat { get; set; }
+        public override BaseStat BaseStat => Stat;
+
         private GridManager gridManager;
         private Vector2Int currentPos;
 
         [SerializeField] protected Player Target;
+
+        protected bool isAttack = false;
+        [SerializeField] protected float attackCoolTime = 0.1f;
 
         protected virtual void Start()
         {
@@ -82,7 +92,8 @@ namespace HotteokSurvivor
         {
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
-                Debug.Log("Enemy is Dead");
+                gridManager.DeleteToCell(currentPos, this);
+                gameObject.SetActive(false);
             }
             else
             {

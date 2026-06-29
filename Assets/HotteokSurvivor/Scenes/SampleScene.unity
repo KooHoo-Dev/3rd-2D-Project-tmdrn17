@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279639702}
   - component: {fileID: 279639701}
-  - component: {fileID: 279639703}
+  - component: {fileID: 279639705}
   - component: {fileID: 279639704}
   m_Layer: 0
   m_Name: Dummy
@@ -212,26 +212,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &279639703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279639699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3541e7b26d8da2d479efde979e474bd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.MeleeEnemy
-  <HeadUpPivot>k__BackingField: {fileID: 0}
-  <hitRadius>k__BackingField: 0
-  stoppingDistance: 0.1
-  <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 100
-    <DefensivePower>k__BackingField: 0
-    <MoveSpeed>k__BackingField: 1
-  Target: {fileID: 0}
 --- !u!61 &279639704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -278,6 +258,31 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 7.222453, y: 10.9}
   m_EdgeRadius: 0
+--- !u!114 &279639705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279639699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed45220287af5ae46ac17b93c452e303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.RangeEnemy
+  <HeadUpPivot>k__BackingField: {fileID: 0}
+  <hitRadius>k__BackingField: 0
+  stoppingDistance: 10
+  <Stat>k__BackingField:
+    <MaxHp>k__BackingField: 0
+    <DefensivePower>k__BackingField: 0
+    <MoveSpeed>k__BackingField: 1
+    <Hp>k__BackingField: 0
+    Damage: 0
+  Target: {fileID: 0}
+  attackCoolTime: 0.1
+  bulletPrefab: {fileID: 2107219067993339591, guid: 4e83bf18a34795d4aafcd94f1d558797, type: 3}
+  bullets: []
 --- !u!1 &321297415
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,9 +663,10 @@ MonoBehaviour:
   <HeadUpPivot>k__BackingField: {fileID: 0}
   <hitRadius>k__BackingField: 0
   <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 0
-    <DefensivePower>k__BackingField: 0
+    <MaxHp>k__BackingField: 200
+    <DefensivePower>k__BackingField: 1
     <MoveSpeed>k__BackingField: 1
+    <Hp>k__BackingField: 0
     exp: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

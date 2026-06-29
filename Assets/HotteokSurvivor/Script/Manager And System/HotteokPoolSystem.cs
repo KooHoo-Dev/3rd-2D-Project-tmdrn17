@@ -6,7 +6,7 @@ namespace HotteokSurvivor
 {
     public class HotteokPoolSystem : MonoBehaviour
     {
-        [SerializeField] Transform hotteokMuzzle;
+        [SerializeField] private Transform hotteokMuzzle;
 
         [SerializeField] private NormalHotteok normalHotteok;
         [SerializeField] private PatHptteok patHotteok;
@@ -22,9 +22,11 @@ namespace HotteokSurvivor
 
         private void Start()
         {
-/*            patPool = new ComponentPool<PatHptteok>(patHotteok, hotteokMuzzle);
+            normalPool = new ComponentPool<NormalHotteok>(normalHotteok, hotteokMuzzle);
+            patPool = new ComponentPool<PatHptteok>(patHotteok, hotteokMuzzle);
 
-            patHotteoks.Add(patPool.Get());*/
+            normalHotteoks.Add(normalPool.Get());
+            patHotteoks.Add(patPool.Get());
         }
 
         private void Update()
@@ -34,6 +36,13 @@ namespace HotteokSurvivor
                 if (patHotteoks[i].gameObject.activeSelf == false)
                 {
                     patPool.Get();
+                }
+            }
+            for (int i = 0; i < normalHotteoks.Count; ++i)
+            {
+                if (normalHotteoks[i].gameObject.activeSelf == false)
+                {
+                    normalPool.Get();
                 }
             }
         }
