@@ -12,6 +12,7 @@ namespace HotteokSurvivor
         private void Update()
         {
             transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
+            transform.position+=
         }
 
         public void Shoot()
