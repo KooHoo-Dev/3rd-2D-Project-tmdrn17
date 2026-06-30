@@ -17,6 +17,8 @@ namespace HotteokSurvivor
         public override BaseStat BaseStat => Stat;
 
         private GridManager gridManager;
+        private PoolingSystem poolingSystem;
+
         private Vector2Int currentPos;
 
         public Player Target;
@@ -28,6 +30,7 @@ namespace HotteokSurvivor
         protected virtual void Start()
         {
             gridManager = GridManager.Instance;
+            poolingSystem = PoolingSystem.Instance;
             currentPos = gridManager.GetCellIndex(transform.position);
             Target = GameManager.Instance.Player;
 
@@ -95,6 +98,8 @@ namespace HotteokSurvivor
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
                 gridManager.DeleteToCell(currentPos, gameObject);
+                poolingSystem.monyeDropPos = transform;
+                poolingSystem.moneyPool.Get(true);
                 gameObject.SetActive(false);
             }
             else

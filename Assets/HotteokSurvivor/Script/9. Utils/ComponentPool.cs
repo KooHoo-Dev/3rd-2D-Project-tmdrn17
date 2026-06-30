@@ -28,7 +28,7 @@ namespace Study.Utilities
         /// <summary>
         /// 사용 가능한 개체를 하나 꺼내온다. (켜진 상태로 반환됨)
         /// </summary>
-        public T Get()
+        public T Get(bool isActive)
         {
             // 1. 먼저 꺼져 있는(재사용 가능한) 복제본이 있는지 찾아본다.
             for (int i = 0; i < spawned.Count; i++)
@@ -43,7 +43,7 @@ namespace Study.Utilities
             // 2. 재사용할 것이 없을 때만 새로 만든다.
             T newOne = Object.Instantiate(original, parent);
             spawned.Add(newOne);
-            newOne.gameObject.SetActive(true);
+            newOne.gameObject.SetActive(isActive);
             return newOne;
         }
     }

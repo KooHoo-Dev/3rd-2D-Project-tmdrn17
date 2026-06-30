@@ -15,11 +15,11 @@ namespace HotteokSurvivor
 
         private ComponentPool<Enemy>[] enemisePool;
         private ComponentPool<Hotteok>[] hotteoksPool;
-        private ComponentPool<Money> moneyPool;
+        public ComponentPool<Money> moneyPool;
 
-        [SerializeField] List<Enemy> enemiseList = new List<Enemy>();
-        [SerializeField] List<Hotteok> hotteoksList = new List<Hotteok>();
-        [SerializeField] List<Money> moneyList = new List<Money>();
+        [SerializeField] private List<Enemy> enemiseList = new List<Enemy>();
+        [SerializeField] private List<Hotteok> hotteoksList = new List<Hotteok>();
+        [SerializeField] private List<Money> moneyList = new List<Money>();
 
         private void Start()
         {
@@ -29,17 +29,17 @@ namespace HotteokSurvivor
             for (int i = 0; i < enemise.Length; i++)
             {
                 enemisePool[i] = new ComponentPool<Enemy>(enemise[i]);
-                enemiseList.Add(enemisePool[i].Get());
+                enemiseList.Add(enemisePool[i].Get(true));
             }
 
             for (int i = 0; i < enemise.Length; i++)
             {
                 hotteoksPool[i] = new ComponentPool<Hotteok>(hotteoks[i], hotteokMuzzle);
-                hotteoksList.Add(hotteoksPool[i].Get());
+                hotteoksList.Add(hotteoksPool[i].Get(true));
             }
 
             moneyPool = new ComponentPool<Money>(money);
-            moneyList.Add(moneyPool.Get());
+            moneyList.Add(moneyPool.Get(false));
         }
 
         private void Update()
@@ -48,7 +48,7 @@ namespace HotteokSurvivor
             {
                 if (enemiseList[i].gameObject.activeSelf == false)
                 {
-                    enemisePool[i].Get();
+                    enemisePool[i].Get(true);
                 }
             }
 
@@ -56,7 +56,7 @@ namespace HotteokSurvivor
             {
                 if (hotteoksList[i].gameObject.activeSelf == false)
                 {
-                    hotteoksPool[i].Get();
+                    hotteoksPool[i].Get(true);
                 }
             }
         }

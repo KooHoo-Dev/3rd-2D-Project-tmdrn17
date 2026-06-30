@@ -155,7 +155,7 @@ MonoBehaviour:
   <hitRadius>k__BackingField: 0
   stoppingDistance: 0.1
   <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 100000
+    <MaxHp>k__BackingField: 100
     <DefensivePower>k__BackingField: 0
     <MoveSpeed>k__BackingField: 3
     <Hp>k__BackingField: 0

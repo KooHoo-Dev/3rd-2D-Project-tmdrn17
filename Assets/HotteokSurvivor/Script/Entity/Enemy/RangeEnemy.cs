@@ -20,7 +20,7 @@ namespace HotteokSurvivor
 
             bulletPool = new ComponentPool<EnemyBullet>(bulletPrefab, transform);
 
-            bullets.Add(bulletPool.Get());
+            bullets.Add(bulletPool.Get(true));
         }
 
         protected override void Update()
@@ -44,7 +44,7 @@ namespace HotteokSurvivor
             {
                 if (bullets[i].gameObject.activeSelf == false)
                 {
-                    bulletPool.Get();
+                    bulletPool.Get(true);
                 }
             }
             isAttack = true;
