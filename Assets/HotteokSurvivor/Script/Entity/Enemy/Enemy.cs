@@ -20,6 +20,7 @@ namespace HotteokSurvivor
         private Vector2Int currentPos;
 
         public Player Target;
+        protected GameObject Money;
 
         protected bool isAttack = false;
         [SerializeField] protected float attackCoolTime = 0.1f;
@@ -28,6 +29,7 @@ namespace HotteokSurvivor
         {
             gridManager = GridManager.Instance;
             currentPos = gridManager.GetCellIndex(transform.position);
+            Target = GameManager.Instance.Player;
 
             gridManager.AddToCell(currentPos, gameObject);
 

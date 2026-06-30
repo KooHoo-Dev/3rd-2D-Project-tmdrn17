@@ -62,7 +62,7 @@ namespace HotteokSurvivor
             }
             else
             {
-                Debug.Log("is Damaged");
+                Debug.Log($"{Stat.Hp}");
             }
         }
 
