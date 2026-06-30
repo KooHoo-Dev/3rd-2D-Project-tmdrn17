@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3945787540450723353
+--- !u!1 &4928142521835722941
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5403575876588488867}
-  - component: {fileID: 4903611588307987668}
-  - component: {fileID: 8473053845221843925}
+  - component: {fileID: 8894831598927086508}
+  - component: {fileID: 4090974557832722938}
+  - component: {fileID: 404177925775059922}
   m_Layer: 0
-  m_Name: Nomal Hotteok
+  m_Name: Money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5403575876588488867
+--- !u!4 &8894831598927086508
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3945787540450723353}
+  m_GameObject: {fileID: 4928142521835722941}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.3223894, w: 0.9466071}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.017675187, y: 0.017675187, z: 0.017675187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4629, y: -2.3376, z: 0}
+  m_LocalScale: {x: 0.012539251, y: 0.012539251, z: 0.012539251}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -37.615}
---- !u!212 &4903611588307987668
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4090974557832722938
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3945787540450723353}
+  m_GameObject: {fileID: 4928142521835722941}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,31 +82,27 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5483527630541237999, guid: c486f43233d551b459f7fc664417fe83, type: 3}
+  m_Sprite: {fileID: 5670732621190257608, guid: 8b69f8f189d6bb2438b5cee694a52e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 58.66358, y: 54.1}
+  m_Size: {x: 81.62498, y: 45.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &8473053845221843925
+--- !u!114 &404177925775059922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3945787540450723353}
+  m_GameObject: {fileID: 4928142521835722941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1020fb7a93dcbf499262e97e3a6e23b, type: 3}
+  m_Script: {fileID: 11500000, guid: e732908083ae9c1439f2b4d35c9924ce, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.NormalHotteok
-  enemy: {fileID: 0}
-  startPos: {fileID: 0}
-  endDistance: 10
-  shotSpeed: 10
+  m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.Money
   hitRadius: 1
-  damage: 30
+  exp: 1

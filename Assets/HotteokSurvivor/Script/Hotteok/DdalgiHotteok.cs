@@ -36,6 +36,7 @@ namespace HotteokSurvivor
             yield return new WaitForSeconds(coolDown);
             HitEnemies.Clear();
         }
+
         protected override void Move()
         {
 
