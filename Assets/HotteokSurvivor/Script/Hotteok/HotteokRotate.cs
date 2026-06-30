@@ -7,17 +7,17 @@ namespace HotteokSurvivor
     {
         public float rotateSpeed = 1.0f;
 
-        public Dictionary<string, List<GameObject>> rotateHotteoks = new Dictionary<string, List<GameObject>>();
+        public Dictionary<string, List<UnityEngine.GameObject>> rotateHotteoks = new Dictionary<string, List<UnityEngine.GameObject>>();
 
-        public void AddHotteok(string name, GameObject hotteok)
+        public void AddHotteok(string name, UnityEngine.GameObject hotteok)
         {
-            if (rotateHotteoks.TryGetValue(name, out List<GameObject> hotteoks))
+            if (rotateHotteoks.TryGetValue(name, out List<UnityEngine.GameObject> hotteoks))
             {
                 hotteoks.Add(hotteok);
             }
             else
             {
-                List<GameObject> newHotteoks = new List<GameObject>();
+                List<UnityEngine.GameObject> newHotteoks = new List<UnityEngine.GameObject>();
                 newHotteoks.Add(hotteok);
                 rotateHotteoks.Add(name, newHotteoks);
             }

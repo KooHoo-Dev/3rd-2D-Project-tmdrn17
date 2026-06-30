@@ -23,7 +23,6 @@ namespace HotteokSurvivor
         protected override void SendDamage()
         {
             enemy.TakeDamage(damage);
-            Debug.Log($"{enemy.gameObject.name}");
         }
 
         private void RotateZ()

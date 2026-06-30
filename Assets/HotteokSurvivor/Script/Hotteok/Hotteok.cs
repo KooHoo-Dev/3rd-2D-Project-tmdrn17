@@ -27,7 +27,7 @@ namespace HotteokSurvivor
 
         public HashSet<Enemy> HitEnemies = new HashSet<Enemy>();
 
-        Vector2Int checkCell;
+        private Vector2Int checkCell;
 
         protected virtual void OnEnable()
         {
@@ -70,24 +70,34 @@ namespace HotteokSurvivor
                     checkCell = myCell + new Vector2Int(x, y);
 
                     // 해당 방에 적들이 있다면?
-                    if (GridManager.Instance.grid.TryGetValue(checkCell, out List<Enemy> enemies))
+                    if (GridManager.Instance.grid.TryGetValue(checkCell, out List<GameObject> enemies))
                     {
                         // 3. 그 방에 있는 소수의 적들과만 거리 계산!
                         for (int i = 0; i < enemies.Count; i++)
                         {
-                            enemy = enemies[i];
-
-                            float sqrDistance = (transform.position - enemy.transform.position).sqrMagnitude;
-                            float combinedRadius = hitRadius + enemy.hitRadius;
-
-                            bool enemyHit = HitEnemies.Contains(enemy);
-                            bool isIn = sqrDistance <= combinedRadius * combinedRadius;
-
-                            if (isIn && (enemyHit == false))
+                            /* (out _)키워드: 무시(Discard, 버리기)'**를 뜻하는 특별한 문법입니다.
+                                        Dictionary<key, value>.TryGetValue, gameObject.TryGetComponent 등 
+                                        함수의 규칙상 값을 받아올 자리를 비워둘 순 없지만, 
+                                        실제로는 그 값을 전혀 사용하지 않을 때 사용합니다.
+                                        작동 방식: 컴퓨터에게 "이 자리에 들어올 값은 필요 없으니 
+                                        변수를 메모리에 만들지 말고 그냥 버려줘"라고 지시합니다.
+                                        장점: 불필요한 변수 선언이 사라져 코드가 깔끔해지고, 메모리도 절약됩니다.*/
+                            if (enemies[i].TryGetComponent<Enemy>(out _))
                             {
-                                HitEnemies.Add(enemy);
-                                SendDamage();
-                                return; // 하나 맞췄으면 총알 검사 즉시 종료!
+                                enemy = enemies[i].GetComponent<Enemy>();
+
+                                float sqrDistance = (transform.position - enemy.transform.position).sqrMagnitude;
+                                float combinedRadius = hitRadius + enemy.hitRadius;
+
+                                bool enemyHit = HitEnemies.Contains(enemy);
+                                bool isIn = sqrDistance <= combinedRadius * combinedRadius;
+
+                                if (isIn && (enemyHit == false))
+                                {
+                                    HitEnemies.Add(enemy);
+                                    SendDamage();
+                                    return; // 하나 맞췄으면 총알 검사 즉시 종료!
+                                }
                             }
                         }
                     }

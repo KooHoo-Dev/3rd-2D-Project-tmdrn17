@@ -20,9 +20,6 @@ namespace HotteokSurvivor
 
         public abstract void TakeDamage(int damage);
 
-        protected virtual void Move()
-        {
-
-        }
+        protected abstract void Move();
     }
 }

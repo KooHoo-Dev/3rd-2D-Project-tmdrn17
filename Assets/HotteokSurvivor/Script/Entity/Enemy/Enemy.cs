@@ -19,7 +19,7 @@ namespace HotteokSurvivor
         private GridManager gridManager;
         private Vector2Int currentPos;
 
-        [SerializeField] protected Player Target;
+        public Player Target;
 
         protected bool isAttack = false;
         [SerializeField] protected float attackCoolTime = 0.1f;
@@ -29,7 +29,7 @@ namespace HotteokSurvivor
             gridManager = GridManager.Instance;
             currentPos = gridManager.GetCellIndex(transform.position);
 
-            gridManager.AddToCell(currentPos, this);
+            gridManager.AddToCell(currentPos, gameObject);
 
             Stat.ResetToFull();
         }
@@ -42,8 +42,8 @@ namespace HotteokSurvivor
             // 2. Vector2Int는 서로 다름(!=)을 바로 비교할 수 있습니다.
             if (newPos != currentPos)
             {
-                gridManager.DeleteToCell(currentPos, this);
-                gridManager.AddToCell(newPos, this);
+                gridManager.DeleteToCell(currentPos, gameObject);
+                gridManager.AddToCell(newPos, gameObject);
                 currentPos = newPos; // 현재 방 번호 갱신
             }
 
@@ -92,7 +92,7 @@ namespace HotteokSurvivor
         {
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
-                gridManager.DeleteToCell(currentPos, this);
+                gridManager.DeleteToCell(currentPos, gameObject);
                 gameObject.SetActive(false);
             }
             else

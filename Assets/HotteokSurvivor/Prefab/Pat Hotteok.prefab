@@ -108,6 +108,6 @@ MonoBehaviour:
   enemy: {fileID: 0}
   startPos: {fileID: 0}
   endDistance: 10
-  shotSpeed: 10
+  shotSpeed: 15
   hitRadius: 1
   damage: 0
