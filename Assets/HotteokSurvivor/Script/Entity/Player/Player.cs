@@ -8,8 +8,8 @@ namespace HotteokSurvivor
     public class PlayerStat : BaseStat
     {
         public int Level;
-        public int maxExp;
-        public int exp;
+        public int MaxExp;
+        public int Exp;
     }
 
     public class Player : CombatEntity
@@ -104,13 +104,14 @@ namespace HotteokSurvivor
 
         public void LevelUp(int exp)
         {
-            Stat.exp += exp;
+            Stat.Exp += exp;
 
-            if (Stat.exp >= Stat.maxExp)
+            if (Stat.Exp >= Stat.MaxExp)
             {
-                Stat.exp = 0;
-                Stat.maxExp += 1;
+                Stat.Exp = 0;
+                Stat.MaxExp += 1;
                 Stat.Level++;
+                GameManager.Instance.LevelUpPopUp();
             }
         }
 
