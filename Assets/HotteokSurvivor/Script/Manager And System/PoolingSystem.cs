@@ -6,8 +6,10 @@ namespace HotteokSurvivor
 {
     public class PoolingSystem : SingletonBase<PoolingSystem>
     {
+        public int enemyCount;
+
         [SerializeField] private Transform hotteokMuzzle;
-        public Transform monyeDropPos;
+        [SerializeField] private Transform[] enemySpawnPoints;
 
         [SerializeField] private Enemy[] enemise;
         [SerializeField] private Hotteok[] hotteoks;
@@ -29,26 +31,36 @@ namespace HotteokSurvivor
             for (int i = 0; i < enemise.Length; i++)
             {
                 enemisePool[i] = new ComponentPool<Enemy>(enemise[i]);
-                enemiseList.Add(enemisePool[i].Get(true));
+
+                for (int j = 0; j < enemyCount; j++)
+                {
+                    Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
+                    Enemy spawnedEnemy = enemisePool[i].Get(true);
+
+                    enemiseList.Add(spawnedEnemy);
+
+                    spawnedEnemy.transform.position = randomEnemyPos.position;
+                }
             }
 
-            for (int i = 0; i < enemise.Length; i++)
+            for (int i = 0; i < hotteoks.Length; i++)
             {
                 hotteoksPool[i] = new ComponentPool<Hotteok>(hotteoks[i], hotteokMuzzle);
                 hotteoksList.Add(hotteoksPool[i].Get(true));
             }
 
             moneyPool = new ComponentPool<Money>(money);
-            moneyList.Add(moneyPool.Get(false));
         }
 
         private void Update()
         {
-            for (int i = 0; i < enemiseList.Count; ++i)
+            for(int i=0; i<enemiseList.Count; i++)
             {
-                if (enemiseList[i].gameObject.activeSelf == false)
+                if(enemiseList[i].gameObject.activeSelf == false)
                 {
-                    enemisePool[i].Get(true);
+                    Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
+                    enemiseList[i].gameObject.SetActive(true);
+                    enemiseList[i].gameObject.transform.position = randomEnemyPos.position;
                 }
             }
 

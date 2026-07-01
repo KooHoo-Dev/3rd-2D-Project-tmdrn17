@@ -14,9 +14,9 @@ namespace HotteokSurvivor
 
         [SerializeField] List<EnemyBullet> bullets = new List<EnemyBullet>();
 
-        protected override void Start()
+        protected override void OnEnable()
         {
-            base.Start();
+            base.OnEnable();
 
             bulletPool = new ComponentPool<EnemyBullet>(bulletPrefab, transform);
 

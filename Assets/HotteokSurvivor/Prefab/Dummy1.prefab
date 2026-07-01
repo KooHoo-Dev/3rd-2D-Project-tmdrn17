@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 216492297856474209}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.19, y: 7.15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.29823816, y: 0.29823816, z: 0.29823816}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -107,11 +107,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.RangeEnemy
   <HeadUpPivot>k__BackingField: {fileID: 0}
   <hitRadius>k__BackingField: 0
-  stoppingDistance: 10
+  stoppingDistance: 2.07
   <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 0
+    <MaxHp>k__BackingField: 10
     <DefensivePower>k__BackingField: 0
-    <MoveSpeed>k__BackingField: 3
+    <MoveSpeed>k__BackingField: 1
     <Hp>k__BackingField: 0
     Damage: 0
   Target: {fileID: 0}

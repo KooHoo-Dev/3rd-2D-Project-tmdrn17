@@ -27,7 +27,7 @@ namespace HotteokSurvivor
         protected bool isAttack = false;
         [SerializeField] protected float attackCoolTime = 0.1f;
 
-        protected virtual void Start()
+        protected virtual void OnEnable()
         {
             gridManager = GridManager.Instance;
             poolingSystem = PoolingSystem.Instance;
@@ -98,13 +98,13 @@ namespace HotteokSurvivor
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
                 gridManager.DeleteToCell(currentPos, gameObject);
-                poolingSystem.monyeDropPos = transform;
-                poolingSystem.moneyPool.Get(true);
+                Money dropmoney = poolingSystem.moneyPool.Get(true);
+                dropmoney.transform.position = transform.position;
                 gameObject.SetActive(false);
             }
             else
             {
-                Debug.Log("Enemy is Damaged");
+
             }
         }
 
