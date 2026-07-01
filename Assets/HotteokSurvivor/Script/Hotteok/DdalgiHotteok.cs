@@ -11,10 +11,6 @@ namespace HotteokSurvivor
 
         protected override void OnEnable()
         {
-            HotteokRotate parent = GetComponentInParent<HotteokRotate>();
-
-            parent.AddHotteok(name.ToString(), gameObject);
-
             HitEnemies.Clear();
             SearchEnemy();
         }
@@ -23,7 +19,6 @@ namespace HotteokSurvivor
         {
             SearchEnemy();
         }
-
 
         protected override void SendDamage()
         {

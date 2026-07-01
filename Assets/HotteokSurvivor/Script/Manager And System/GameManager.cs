@@ -6,11 +6,11 @@ namespace HotteokSurvivor
     public class GameManager : SingletonBase<GameManager>
     {
         public Player Player;
-        public UIManager UIManager;
+        public GameObject UpgradeUI;
 
         public void LevelUpPopUp()
         {
-            UIManager.UpgradeUI.SetActive(true);
+            UpgradeUI.SetActive(true);
             Time.timeScale = 0;
         }
     }
