@@ -95,16 +95,14 @@ namespace HotteokSurvivor
 
         public override void TakeDamage(int damage)
         {
+            // enemy 죽을때 실행
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
                 gridManager.DeleteToCell(currentPos, gameObject);
                 Money dropmoney = poolingSystem.moneyPool.Get(true);
                 dropmoney.transform.position = transform.position;
+                dropmoney.InIt();
                 gameObject.SetActive(false);
-            }
-            else
-            {
-
             }
         }
 

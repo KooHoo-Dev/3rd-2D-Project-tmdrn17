@@ -13,7 +13,7 @@ namespace HotteokSurvivor
 
         public int exp;
 
-        private void OnEnable()
+        public void InIt()
         {
             gridManager = GridManager.Instance;
             currentPos = gridManager.GetCellIndex(transform.position);
