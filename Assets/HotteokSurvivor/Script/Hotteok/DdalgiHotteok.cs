@@ -9,14 +9,6 @@ namespace HotteokSurvivor
     public class DdalgiHotteok : Hotteok
     {
         [SerializeField] private float coolDown = 0.5f;
-        [SerializeField] private bool isActive = false;
-
-        [SerializeField] private HotteokRotate parent;
-
-        private void Start()
-        {
-            parent = gameObject.GetComponentInParent<HotteokRotate>();
-        }
 
         protected override void OnEnable()
         {

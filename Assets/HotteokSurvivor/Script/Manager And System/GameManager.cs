@@ -33,6 +33,7 @@ namespace HotteokSurvivor
                     poolingSystem.hotteokLevel[hotteokName]++;
                     Debug.Log("normal");
                     break;
+
                 case (int)HotteokName.Pat:
 
                     poolingSystem.hotteokLevel[hotteokName]++;
@@ -43,6 +44,7 @@ namespace HotteokSurvivor
                     }
                     Debug.Log("pat");
                     break;
+
                 case (int)HotteokName.Ddalgi:
 
                     if (rotateHotteok.ActiveHotteoks < rotateHotteok.DdalgiHottoeks.Count)
