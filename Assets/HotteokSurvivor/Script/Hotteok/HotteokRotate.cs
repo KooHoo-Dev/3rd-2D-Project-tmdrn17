@@ -25,6 +25,7 @@ namespace HotteokSurvivor
         private void Update()
         {
             transform.Rotate(Vector3.forward * RotateSpeed * Time.deltaTime);
+            transform.position = GameManager.Instance.Player.transform.position;
 
             if (isActive == false)
             {

@@ -16,7 +16,7 @@ namespace HotteokSurvivor
         [field: SerializeField] public virtual BaseStat BaseStat { get; }
         [field: SerializeField] public float hitRadius { get; private set; }
 
-        protected int FacingDirection = 1;
+        public int FacingDirection = 1;
 
         public abstract void TakeDamage(int damage);
 
