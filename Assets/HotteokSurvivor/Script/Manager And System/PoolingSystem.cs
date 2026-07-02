@@ -67,7 +67,7 @@ namespace HotteokSurvivor
                 }
             }
 
-            for(int i = 0; i < haveHotteoksKind; i++)
+            for (int i = 0; i < haveHotteoksKind; i++)
             {
                 SpawnHotteokByLevel(i);
             }

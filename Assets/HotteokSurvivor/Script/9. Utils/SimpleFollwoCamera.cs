@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Study.Utilities
@@ -19,7 +20,7 @@ namespace Study.Utilities
 
 
         private Camera Cam { get; set; }
-        private States State { get; set; }
+        [field: SerializeField] private States State { get; set; }
 
         private void Start()
         {
@@ -29,6 +30,7 @@ namespace Study.Utilities
 
         private void Update()
         {
+
             switch (State)
             {
                 case States.Stopped:

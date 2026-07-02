@@ -1,5 +1,6 @@
-using UnityEngine;
 using Study.Utilities;
+using Unity.VisualScripting;
+using UnityEngine;
 
 namespace HotteokSurvivor
 {
@@ -9,9 +10,12 @@ namespace HotteokSurvivor
         public GameObject UpgradeUI;
         public PoolingSystem poolingSystem;
 
+        private HotteokRotate rotateHotteok;
+
         private void Start()
         {
             poolingSystem = PoolingSystem.instance;
+            rotateHotteok = Player.GetComponentInChildren<HotteokRotate>(true);
         }
 
         public void LevelUpPopUp()
@@ -25,11 +29,14 @@ namespace HotteokSurvivor
             switch (hotteokName)
             {
                 case (int)HotteokName.Normal:
+
                     poolingSystem.hotteokLevel[hotteokName]++;
                     Debug.Log("normal");
                     break;
                 case (int)HotteokName.Pat:
+
                     poolingSystem.hotteokLevel[hotteokName]++;
+
                     if (poolingSystem.haveHotteoksKind < hotteokName + 1)
                     {
                         poolingSystem.haveHotteoksKind++;
@@ -37,7 +44,13 @@ namespace HotteokSurvivor
                     Debug.Log("pat");
                     break;
                 case (int)HotteokName.Ddalgi:
-                    poolingSystem.hotteokLevel[hotteokName]++;
+
+                    if (rotateHotteok.ActiveHotteoks < rotateHotteok.DdalgiHottoeks.Count)
+                    {
+                        rotateHotteok.ActiveHotteoks++;
+                    }
+
+                    rotateHotteok.gameObject.SetActive(true);
                     Debug.Log("ddalgi");
                     break;
             }

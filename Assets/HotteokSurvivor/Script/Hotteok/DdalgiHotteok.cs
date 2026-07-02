@@ -1,6 +1,7 @@
 using HotteokSurvivor;
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace HotteokSurvivor
@@ -8,6 +9,14 @@ namespace HotteokSurvivor
     public class DdalgiHotteok : Hotteok
     {
         [SerializeField] private float coolDown = 0.5f;
+        [SerializeField] private bool isActive = false;
+
+        [SerializeField] private HotteokRotate parent;
+
+        private void Start()
+        {
+            parent = gameObject.GetComponentInParent<HotteokRotate>();
+        }
 
         protected override void OnEnable()
         {
@@ -31,6 +40,7 @@ namespace HotteokSurvivor
             yield return new WaitForSeconds(coolDown);
             HitEnemies.Clear();
         }
+
 
         protected override void Move()
         {
