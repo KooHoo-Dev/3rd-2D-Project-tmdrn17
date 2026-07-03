@@ -15,7 +15,7 @@ namespace HotteokSurvivor
     public class Player : CombatEntity
     {
         [field: SerializeField] private PlayerStat Stat { get; set; }
-        public override BaseStat BaseStat => Stat;
+        protected override BaseStat BaseStat => Stat;
 
         [SerializeField] protected Money money;
         private Vector2Int checkCell;

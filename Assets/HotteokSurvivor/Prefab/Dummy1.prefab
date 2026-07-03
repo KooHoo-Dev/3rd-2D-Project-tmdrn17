@@ -108,12 +108,13 @@ MonoBehaviour:
   <hitRadius>k__BackingField: 0.99
   FacingDirection: 1
   stoppingDistance: 2.07
-  <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 10
-    <DefensivePower>k__BackingField: 0
-    <MoveSpeed>k__BackingField: 1
+  Stat:
+    MaxHp: 30
+    DefensivePower: 0
+    MoveSpeed: 1
     <Hp>k__BackingField: 0
-    Damage: 0
+    AttackType: 
+    Damage: 2
   Target: {fileID: 0}
   attackCoolTime: 0.1
   bulletPrefab: {fileID: 2107219067993339591, guid: 4e83bf18a34795d4aafcd94f1d558797, type: 3}

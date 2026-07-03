@@ -6,11 +6,13 @@ namespace HotteokSurvivor
     [System.Serializable]
     public class BaseStat
     {
-        [field: SerializeField] public int MaxHp { get; private set; }
-        [field: SerializeField] public int DefensivePower { get; private set; }
-        [field: SerializeField] public float MoveSpeed { get; set; } = 1.0f;
+        public int MaxHp;
+        public int DefensivePower;
+        public float MoveSpeed = 1.0f;
+
         [field: SerializeField] public int Hp { get; private set; }
-        public bool isDead => (Hp <= 0);
+
+        private bool isDead => (Hp <= 0);
 
         /// <summary>
         /// 스탯 객체에게 데미지를 적용하고, 죽었는지를 반환하는 함수

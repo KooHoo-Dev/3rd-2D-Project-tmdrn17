@@ -10,12 +10,19 @@ namespace HotteokSurvivor
         public GameObject UpgradeUI;
         public PoolingSystem poolingSystem;
 
+        public float CurrentTime;
+
         private HotteokRotate rotateHotteok;
 
         private void Start()
         {
             poolingSystem = PoolingSystem.instance;
             rotateHotteok = Player.GetComponentInChildren<HotteokRotate>(true);
+        }
+
+        private void Update()
+        {
+            CurrentTime += Time.deltaTime;
         }
 
         public void LevelUpPopUp()

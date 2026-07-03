@@ -13,8 +13,8 @@ namespace HotteokSurvivor
     {
         [SerializeField] protected float stoppingDistance = 0.1f;
 
-        [field: SerializeField] protected EnemyStat Stat { get; set; }
-        public override BaseStat BaseStat => Stat;
+        public EnemyStat Stat;
+        protected override BaseStat BaseStat => Stat;
 
         private GridManager gridManager;
         private PoolingSystem poolingSystem;

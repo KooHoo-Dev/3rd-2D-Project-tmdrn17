@@ -12,11 +12,15 @@ namespace HotteokSurvivor
         public float xReplaceDistance;
         public float yReplaceDistance;
 
+        private Vector3 screen;
+        private Vector3 worldPos;
+
         public int haveHotteoksKind;
         public int[] hotteokLevel;
 
         [SerializeField] private Transform hotteokMuzzle;
         [SerializeField] private Transform[] enemySpawnPoints;
+        [SerializeField] private Transform moneyParent;
 
         [SerializeField] private Enemy[] enemise;
         [SerializeField] private Hotteok[] hotteoks;
@@ -26,7 +30,7 @@ namespace HotteokSurvivor
         private ComponentPool<Hotteok>[] hotteoksPool;
         public ComponentPool<Money> moneyPool;
 
-        [SerializeField] private List<Enemy> enemiseList = new List<Enemy>();
+        public List<Enemy> enemiseList = new List<Enemy>();
         private Dictionary<HotteokName, List<Hotteok>> hotteokDic = new Dictionary<HotteokName, List<Hotteok>>();
         [SerializeField] private List<Money> moneyList = new List<Money>();
 
@@ -39,15 +43,7 @@ namespace HotteokSurvivor
             {
                 enemisePool[i] = new ComponentPool<Enemy>(enemise[i]);
 
-                for (int j = 0; j < enemyCount; j++)
-                {
-                    Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
-                    Enemy spawnedEnemy = enemisePool[i].Get(true);
-
-                    enemiseList.Add(spawnedEnemy);
-
-                    spawnedEnemy.transform.position = randomEnemyPos.position;
-                }
+                AddEnemyList(i, enemyCount);
             }
 
             for (int i = 0; i < hotteoks.Length; i++)
@@ -55,15 +51,13 @@ namespace HotteokSurvivor
                 hotteoksPool[i] = new ComponentPool<Hotteok>(hotteoks[i], hotteokMuzzle);
             }
 
-            moneyPool = new ComponentPool<Money>(money);
+            moneyPool = new ComponentPool<Money>(money, moneyParent);
         }
 
         private void Update()
         {
-            Vector3 screen = new Vector3(Screen.width / 2, 0);
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(screen);
-
-
+            screen = new Vector3(Screen.width / 2, 0);
+            worldPos = Camera.main.ScreenToWorldPoint(screen);
 
             for (int i = 0; i < enemiseList.Count; i++)
             {
@@ -95,6 +89,19 @@ namespace HotteokSurvivor
             for (int i = 0; i < haveHotteoksKind; i++)
             {
                 SpawnHotteokByLevel(i);
+            }
+        }
+
+        public void AddEnemyList(int enemyKind, int count)
+        {
+            for (int j = 0; j < count; j++)
+            {
+                Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
+                Enemy spawnedEnemy = enemisePool[enemyKind].Get(true);
+
+                enemiseList.Add(spawnedEnemy);
+
+                spawnedEnemy.transform.position = randomEnemyPos.position;
             }
         }
 

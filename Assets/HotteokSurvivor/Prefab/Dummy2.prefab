@@ -153,12 +153,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.MeleeEnemy
   <HeadUpPivot>k__BackingField: {fileID: 0}
   <hitRadius>k__BackingField: 0
+  FacingDirection: 1
   stoppingDistance: 0.1
-  <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 50
-    <DefensivePower>k__BackingField: 0
-    <MoveSpeed>k__BackingField: 1
+  Stat:
+    MaxHp: 50
+    DefensivePower: 1
+    MoveSpeed: 1
     <Hp>k__BackingField: 0
+    AttackType: 
     Damage: 1
   Target: {fileID: 0}
   attackCoolTime: 0.1
