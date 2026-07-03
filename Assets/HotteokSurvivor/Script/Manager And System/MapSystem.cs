@@ -6,7 +6,15 @@ namespace HotteokSurvivor
     {
         [SerializeField] private Transform player;      // 플레이어의 Transform [1, 2]
         [SerializeField] private Transform[] mapTiles;  // 9개의 맵 타일 배열 (아파트 우편함 구조) [3]
-        [SerializeField] private float tileSize = 20f;   // 타일 한 칸의 가로/세로 크기 (월드 단위)
+        [SerializeField] private float tileSizeX;   // 타일 한 칸의 가로/세로 크기 (월드 단위)
+        [SerializeField] private float tileSizeY;   // 타일 한 칸의 가로/세로 크기 (월드 단위)
+        [SerializeField] private SpriteRenderer spriteRenderer;
+
+        private void Start()
+        {
+            tileSizeX = spriteRenderer.bounds.size.x;
+            tileSizeY = spriteRenderer.bounds.size.y;
+        }
 
         private void Update()
         {
@@ -25,20 +33,20 @@ namespace HotteokSurvivor
                 float absDiffY = Mathf.Abs(diffY);
 
                 // 1. X축 이동 판정 (플레이어가 타일 경계선(1.5배 거리)을 넘었을 때)
-                if (absDiffX > tileSize * 1.5f)
+                if (absDiffX > tileSizeX * 1.5f)
                 {
                     // 플레이어가 타일보다 오른쪽에 있다면 +1, 왼쪽에 있다면 -1을 반환합니다 [10]
                     float dirX = Mathf.Sign(diffX);
 
                     // 타일을 반대편 끝(타일 3장 너비만큼)으로 순간 이동시킵니다 [11, 12]
-                    mapTiles[i].position += Vector3.right * dirX * tileSize * 3f;
+                    mapTiles[i].position += Vector3.right * dirX * tileSizeX * 3f;
                 }
 
                 // 2. Y축 이동 판정
-                if (absDiffY > tileSize * 1.5f)
+                if (absDiffY > tileSizeY * 1.5f)
                 {
                     float dirY = Mathf.Sign(diffY);
-                    mapTiles[i].position += Vector3.up * dirY * tileSize * 3f;
+                    mapTiles[i].position += Vector3.up * dirY * tileSizeY * 3f;
                 }
             }
         }

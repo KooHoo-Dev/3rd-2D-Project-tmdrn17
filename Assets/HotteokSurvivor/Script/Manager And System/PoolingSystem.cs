@@ -1,6 +1,7 @@
 using Study.Utilities;
 using System.Collections.Generic;
 using Unity.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace HotteokSurvivor
@@ -8,6 +9,8 @@ namespace HotteokSurvivor
     public class PoolingSystem : SingletonBase<PoolingSystem>
     {
         public int enemyCount;
+        public float xReplaceDistance;
+        public float yReplaceDistance;
 
         public int haveHotteoksKind;
         public int[] hotteokLevel;
@@ -57,13 +60,35 @@ namespace HotteokSurvivor
 
         private void Update()
         {
+            Vector3 screen = new Vector3(Screen.width / 2, 0);
+            Vector3 worldPos = Camera.main.ScreenToWorldPoint(screen);
+
+
+
             for (int i = 0; i < enemiseList.Count; i++)
             {
+                float diffX = enemiseList[i].transform.position.x - worldPos.x;
+                float diffY = enemiseList[i].transform.position.y - worldPos.y;
+
+                float absDiffX = Mathf.Abs(diffX);
+                float absDiffY = Mathf.Abs(diffX);
+
+                Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
+
                 if (enemiseList[i].gameObject.activeSelf == false)
                 {
-                    Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
                     enemiseList[i].gameObject.SetActive(true);
                     enemiseList[i].gameObject.transform.position = randomEnemyPos.position;
+                }
+                if (absDiffX >= xReplaceDistance)
+                {
+                    enemiseList[i].gameObject.transform.position = randomEnemyPos.position;
+                    enemiseList[i].RegistGrid();
+                }
+                if (absDiffY >= yReplaceDistance)
+                {
+                    enemiseList[i].gameObject.transform.position = randomEnemyPos.position;
+                    enemiseList[i].RegistGrid();
                 }
             }
 

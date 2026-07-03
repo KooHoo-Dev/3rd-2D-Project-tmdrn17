@@ -41,6 +41,12 @@ namespace HotteokSurvivor
 
         protected virtual void Update()
         {
+            RegistGrid();
+            Move();
+        }
+
+        public void RegistGrid()
+        {
             // 1. 이번 프레임의 새 방 번호를 딱 한 번만 구해서 저장합니다.
             Vector2Int newPos = gridManager.GetCellIndex(transform.position);
 
@@ -51,8 +57,6 @@ namespace HotteokSurvivor
                 gridManager.AddToCell(newPos, gameObject);
                 currentPos = newPos; // 현재 방 번호 갱신
             }
-
-            Move();
         }
 
         protected override void Move()
