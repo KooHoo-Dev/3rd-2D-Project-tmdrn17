@@ -204,8 +204,8 @@ Transform:
   m_GameObject: {fileID: 35705888}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.66, y: 0, z: 0}
-  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
+  m_LocalPosition: {x: -19.0125, y: 0, z: 0}
+  m_LocalScale: {x: 3.7952027, y: 3.6732507, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374529030}
@@ -347,6 +347,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61185765}
   m_CullTransparentMesh: 1
+--- !u!1 &85040821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85040822}
+  m_Layer: 0
+  m_Name: Moneys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &85040822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85040821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.26955, y: 2.84883, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &131061783
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +482,7 @@ Transform:
   m_GameObject: {fileID: 187869555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.33, y: 4.81, z: 0}
+  m_LocalPosition: {x: -27, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -571,7 +602,9 @@ MonoBehaviour:
   - {fileID: 1565759060}
   - {fileID: 412074900}
   - {fileID: 1949369171}
-  tileSize: 20
+  tileSizeX: 0
+  tileSizeY: 0
+  spriteRenderer: {fileID: 627310650}
 --- !u!4 &374529030
 Transform:
   m_ObjectHideFlags: 0
@@ -712,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 454058653}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.52, y: -4.62, z: 0}
+  m_LocalPosition: {x: -27, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -957,8 +990,8 @@ Transform:
   m_GameObject: {fileID: 553923240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.66, y: -10, z: 0}
-  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
+  m_LocalPosition: {x: -19.0125, y: -10, z: 0}
+  m_LocalScale: {x: 3.7952027, y: 3.6732507, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374529030}
@@ -1239,7 +1272,7 @@ Transform:
   m_GameObject: {fileID: 672442696}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.85, y: -11.130001, z: 0}
+  m_LocalPosition: {x: 16, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1731,7 +1764,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.57574, y: 0.57574, z: 0.57574}
+  m_LocalScale: {x: 0.38863775, y: 0.38863775, z: 0.38863775}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 321297416}
@@ -1751,15 +1784,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.Player
   <HeadUpPivot>k__BackingField: {fileID: 0}
-  <hitRadius>k__BackingField: 0.79
+  <hitRadius>k__BackingField: 0.58
   FacingDirection: 1
   <Stat>k__BackingField:
-    <MaxHp>k__BackingField: 200
-    <DefensivePower>k__BackingField: 0
-    <MoveSpeed>k__BackingField: 3.33
+    MaxHp: 0
+    DefensivePower: 0
+    MoveSpeed: 1
     <Hp>k__BackingField: 0
     Level: 0
-    MaxExp: 0
+    MaxExp: 600000
     Exp: 0
   money: {fileID: 0}
 --- !u!1 &919714571
@@ -1787,8 +1820,8 @@ Transform:
   m_GameObject: {fileID: 919714571}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.71, y: -0.12000023, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -27, y: 0, z: 0}
+  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 373209805}
@@ -1818,7 +1851,7 @@ Transform:
   m_GameObject: {fileID: 1192387931}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.85, y: 10.309999, z: 0}
+  m_LocalPosition: {x: 16, y: 14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2064,7 +2097,7 @@ Transform:
   m_GameObject: {fileID: 1368230504}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.59, y: -0.12000023, z: 0}
+  m_LocalPosition: {x: 28, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2096,7 +2129,7 @@ Transform:
   m_GameObject: {fileID: 1509616978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.93514, y: 7.61579, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2115,6 +2148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.PoolingSystem
   enemyCount: 3
+  xReplaceDistance: 17
+  yReplaceDistance: 13
   haveHotteoksKind: 1
   hotteokLevel: 0100000000000000
   hotteokMuzzle: {fileID: 321297416}
@@ -2131,6 +2166,7 @@ MonoBehaviour:
   - {fileID: 1826633546}
   - {fileID: 1898628323}
   - {fileID: 672442697}
+  moneyParent: {fileID: 85040822}
   enemise:
   - {fileID: 215289274524746024, guid: 7d9b754dd4abf424cb99c7f2047e3eda, type: 3}
   - {fileID: 4987733285543501229, guid: c0ff0e7f881779347a9181526f8b91fd, type: 3}
@@ -2165,7 +2201,7 @@ Transform:
   m_GameObject: {fileID: 1558066770}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.78, y: -4.62, z: 0}
+  m_LocalPosition: {x: 28, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2287,7 +2323,7 @@ Transform:
   m_GameObject: {fileID: 1594815406}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26000017, y: 10.309999, z: 0}
+  m_LocalPosition: {x: 0, y: 14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2511,7 +2547,7 @@ Transform:
   m_GameObject: {fileID: 1690043047}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.19, y: 10.31, z: 0}
+  m_LocalPosition: {x: -16, y: 14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2602,8 +2638,8 @@ Transform:
   m_GameObject: {fileID: 1691681957}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
-  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
+  m_LocalPosition: {x: 0, y: 11.0378, z: 0}
+  m_LocalScale: {x: 3.6732507, y: 4.2033005, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374529030}
@@ -2770,7 +2806,7 @@ Transform:
   m_GameObject: {fileID: 1826633545}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.19, y: -11.13, z: 0}
+  m_LocalPosition: {x: -16, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2801,7 +2837,7 @@ Transform:
   m_GameObject: {fileID: 1898628322}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26000017, y: -11.130001, z: 0}
+  m_LocalPosition: {x: 0, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2892,8 +2928,8 @@ Transform:
   m_GameObject: {fileID: 1949369169}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.79, y: 10, z: 0}
-  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
+  m_LocalPosition: {x: 18.79, y: 11.0378, z: 0}
+  m_LocalScale: {x: 3.6732507, y: 4.2033005, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374529030}
@@ -2923,7 +2959,7 @@ Transform:
   m_GameObject: {fileID: 1982290287}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.97, y: 4.81, z: 0}
+  m_LocalPosition: {x: 28, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3014,8 +3050,8 @@ Transform:
   m_GameObject: {fileID: 2009402685}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.66, y: 10, z: 0}
-  m_LocalScale: {x: 3.6732507, y: 3.6732507, z: 3.6732507}
+  m_LocalPosition: {x: -19.0125, y: 11.0378, z: 0}
+  m_LocalScale: {x: 3.7952027, y: 4.2033005, z: 3.6732507}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374529030}
@@ -3030,6 +3066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126306984}
   - component: {fileID: 2126306983}
+  - component: {fileID: 2126306985}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -3052,6 +3089,7 @@ MonoBehaviour:
   Player: {fileID: 873602202}
   UpgradeUI: {fileID: 554856940}
   poolingSystem: {fileID: 0}
+  CurrentTime: 0
 --- !u!4 &2126306984
 Transform:
   m_ObjectHideFlags: 0
@@ -3067,6 +3105,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2126306985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126306982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69d1807d412cc047894d515aeed2179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.DifficultySystem
+  difficultyTime: 30
+  curTime: 0
+  enemyPoolLevel: 0
+  enemyKind: 01000000000000000100000001000000000000000100000001000000010000000100000000000000
+  enemyCount: 02000000010000000100000003000000020000000500000002000000010000000300000005000000
 --- !u!1 &461948393907669467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3579,10 +3634,11 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 131061786}
   - {fileID: 2126306984}
   - {fileID: 1509616979}
   - {fileID: 5808436317397787200}
+  - {fileID: 85040822}
   - {fileID: 1684044588}
   - {fileID: 873602201}
-  - {fileID: 131061786}
   - {fileID: 374529030}
