@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: c38891259e2b8ca4bbb2fe6bfe996937
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3989161385115957164
+    second: Old Woman_0
+  - first:
+      213: 7933269123618536516
+    second: Old Woman_1
+  - first:
+      213: 8821095830566843303
+    second: Old Woman_2
+  - first:
+      213: -6573117536977082345
+    second: Old Woman_3
+  - first:
+      213: -293758079076900677
+    second: Old Woman_4
+  - first:
+      213: -5221152393921358914
+    second: Old Woman_5
+  - first:
+      213: 8108476158962568209
+    second: Old Woman_6
+  - first:
+      213: -2359824599186302452
+    second: Old Woman_7
+  - first:
+      213: 1106538025576838360
+    second: Old Woman_8
+  - first:
+      213: 5859992492632929079
+    second: Old Woman_9
+  - first:
+      213: -3287153205303035291
+    second: Old Woman_10
+  - first:
+      213: 8961276907567686425
+    second: Old Woman_11
+  - first:
+      213: 8239056049770233643
+    second: Old Woman_12
+  - first:
+      213: -8439868701935478366
+    second: Old Woman_13
+  - first:
+      213: -8479189498949317420
+    second: Old Woman_14
+  - first:
+      213: 5022554541084787563
+    second: Old Woman_15
+  - first:
+      213: -1892054255729137782
+    second: Old Woman_16
+  - first:
+      213: 2871617574826812708
+    second: Old Woman_17
+  - first:
+      213: -4326357792835467547
+    second: Old Woman_18
+  - first:
+      213: 5202149405385354044
+    second: Old Woman_19
+  - first:
+      213: -2991763117661698612
+    second: Old Woman_20
+  - first:
+      213: -8703515189102301029
+    second: Old Woman_21
+  - first:
+      213: -4212999207949362189
+    second: Old Woman_22
+  - first:
+      213: 8751445965054236589
+    second: Old Woman_23
+  - first:
+      213: -2660742279470137681
+    second: Old Woman_24
+  - first:
+      213: -7097935783027769803
+    second: Old Woman_25
+  - first:
+      213: 9008037746855584408
+    second: Old Woman_26
+  - first:
+      213: 4209699211325724036
+    second: Old Woman_27
+  - first:
+      213: 8965804429155871595
+    second: Old Woman_28
+  - first:
+      213: -2353705739648399043
+    second: Old Woman_29
+  - first:
+      213: -792334094036658306
+    second: Old Woman_30
+  - first:
+      213: 878053537956003893
+    second: Old Woman_31
+  - first:
+      213: 3899165672774032335
+    second: Old Woman_32
+  - first:
+      213: -6776424341358670128
+    second: Old Woman_33
+  - first:
+      213: -5306241691170759148
+    second: Old Woman_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Old Woman_0
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 6023
+        width: 906
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45845701bd6a3a8c0800000000000000
+      internalID: -3989161385115957164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_1
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 6159
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c7bd45c32a81e60800000000000000
+      internalID: 7933269123618536516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_2
+      rect:
+        serializedVersion: 2
+        x: 11451
+        y: 6031
+        width: 722
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3bd96fbe3da6a70800000000000000
+      internalID: 8821095830566843303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 4559
+        width: 834
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718279d0d6897c4a0800000000000000
+      internalID: -6573117536977082345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_4
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 4555
+        width: 886
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb068be559c5cebf0800000000000000
+      internalID: -293758079076900677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_5
+      rect:
+        serializedVersion: 2
+        x: 6203
+        y: 4535
+        width: 794
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb313228f8dba87b0800000000000000
+      internalID: -5221152393921358914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_6
+      rect:
+        serializedVersion: 2
+        x: 8771
+        y: 4539
+        width: 782
+        height: 1218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c00b42b18178070800000000000000
+      internalID: 8108476158962568209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_7
+      rect:
+        serializedVersion: 2
+        x: 11319
+        y: 4559
+        width: 846
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a9549a708304fd0800000000000000
+      internalID: -2359824599186302452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_8
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3083
+        width: 758
+        height: 1182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d438f8b8763b5f00800000000000000
+      internalID: 1106538025576838360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_9
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 3083
+        width: 866
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73377dddf10e25150800000000000000
+      internalID: 5859992492632929079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_10
+      rect:
+        serializedVersion: 2
+        x: 6151
+        y: 3059
+        width: 882
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a30ab639fa162d0800000000000000
+      internalID: -3287153205303035291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_11
+      rect:
+        serializedVersion: 2
+        x: 8855
+        y: 3067
+        width: 698
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913ab795ed9dc5c70800000000000000
+      internalID: 8961276907567686425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_12
+      rect:
+        serializedVersion: 2
+        x: 11319
+        y: 3107
+        width: 846
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f761b23d1075270800000000000000
+      internalID: 8239056049770233643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_13
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1611
+        width: 730
+        height: 1186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9d236c1209fda80800000000000000
+      internalID: -8439868701935478366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_14
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 1615
+        width: 882
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc47eb431ed35a80800000000000000
+      internalID: -8479189498949317420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_15
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 1591
+        width: 878
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6342669eb2b3b540800000000000000
+      internalID: 5022554541084787563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_16
+      rect:
+        serializedVersion: 2
+        x: 8843
+        y: 1595
+        width: 710
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87af7fcda21eb5e0800000000000000
+      internalID: -1892054255729137782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_17
+      rect:
+        serializedVersion: 2
+        x: 11319
+        y: 1643
+        width: 846
+        height: 1190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425225648f80ad720800000000000000
+      internalID: 2871617574826812708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_18
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 143
+        width: 774
+        height: 1182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e68cca6280b5f3c0800000000000000
+      internalID: -4326357792835467547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_19
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 143
+        width: 850
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3be080725fb13840800000000000000
+      internalID: 5202149405385354044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_20
+      rect:
+        serializedVersion: 2
+        x: 6123
+        y: 127
+        width: 902
+        height: 1194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5c8a7ab4f1b76d0800000000000000
+      internalID: -2991763117661698612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_21
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 139
+        width: 982
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9037587c07e63780800000000000000
+      internalID: -8703515189102301029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_22
+      rect:
+        serializedVersion: 2
+        x: 10215
+        y: 279
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb1d23ba8b6885c0800000000000000
+      internalID: -4212999207949362189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_23
+      rect:
+        serializedVersion: 2
+        x: 10207
+        y: 263
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da75512fcb1637970800000000000000
+      internalID: 8751445965054236589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_24
+      rect:
+        serializedVersion: 2
+        x: 10219
+        y: 259
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeb1597ef4231bd0800000000000000
+      internalID: -2660742279470137681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_25
+      rect:
+        serializedVersion: 2
+        x: 10203
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e781603011f7d90800000000000000
+      internalID: -7097935783027769803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_26
+      rect:
+        serializedVersion: 2
+        x: 10243
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89223a8aa9af20d70800000000000000
+      internalID: 9008037746855584408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_27
+      rect:
+        serializedVersion: 2
+        x: 10191
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485df46f02bdb6a30800000000000000
+      internalID: 4209699211325724036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_28
+      rect:
+        serializedVersion: 2
+        x: 10199
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ba57d10afec6c70800000000000000
+      internalID: 8965804429155871595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_29
+      rect:
+        serializedVersion: 2
+        x: 10179
+        y: 239
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39857aa915f55fd0800000000000000
+      internalID: -2353705739648399043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_30
+      rect:
+        serializedVersion: 2
+        x: 10187
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e779385e6501105f0800000000000000
+      internalID: -792334094036658306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_31
+      rect:
+        serializedVersion: 2
+        x: 10255
+        y: 239
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53084a76a097f2c00800000000000000
+      internalID: 878053537956003893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_32
+      rect:
+        serializedVersion: 2
+        x: 10199
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbd71e458e9c1630800000000000000
+      internalID: 3899165672774032335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_33
+      rect:
+        serializedVersion: 2
+        x: 10215
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de810ee6fd45f1a0800000000000000
+      internalID: -6776424341358670128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old Woman_34
+      rect:
+        serializedVersion: 2
+        x: 8259
+        y: 131
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e1669ab417c56b0800000000000000
+      internalID: -5306241691170759148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Old Woman_0: -3989161385115957164
+      Old Woman_1: 7933269123618536516
+      Old Woman_10: -3287153205303035291
+      Old Woman_11: 8961276907567686425
+      Old Woman_12: 8239056049770233643
+      Old Woman_13: -8439868701935478366
+      Old Woman_14: -8479189498949317420
+      Old Woman_15: 5022554541084787563
+      Old Woman_16: -1892054255729137782
+      Old Woman_17: 2871617574826812708
+      Old Woman_18: -4326357792835467547
+      Old Woman_19: 5202149405385354044
+      Old Woman_2: 8821095830566843303
+      Old Woman_20: -2991763117661698612
+      Old Woman_21: -8703515189102301029
+      Old Woman_22: -4212999207949362189
+      Old Woman_23: 8751445965054236589
+      Old Woman_24: -2660742279470137681
+      Old Woman_25: -7097935783027769803
+      Old Woman_26: 9008037746855584408
+      Old Woman_27: 4209699211325724036
+      Old Woman_28: 8965804429155871595
+      Old Woman_29: -2353705739648399043
+      Old Woman_3: -6573117536977082345
+      Old Woman_30: -792334094036658306
+      Old Woman_31: 878053537956003893
+      Old Woman_32: 3899165672774032335
+      Old Woman_33: -6776424341358670128
+      Old Woman_34: -5306241691170759148
+      Old Woman_4: -293758079076900677
+      Old Woman_5: -5221152393921358914
+      Old Woman_6: 8108476158962568209
+      Old Woman_7: -2359824599186302452
+      Old Woman_8: 1106538025576838360
+      Old Woman_9: 5859992492632929079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,6 +5,9 @@ namespace HotteokSurvivor
 {
     public class ChangeSceneSystem : MonoBehaviour
     {
-
+        public void SceneChange()
+        {
+            SceneManager.LoadScene("Game Scene");
+        }
     }
 }

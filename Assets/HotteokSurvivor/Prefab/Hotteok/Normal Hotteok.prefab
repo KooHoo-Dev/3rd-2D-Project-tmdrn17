@@ -104,9 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1020fb7a93dcbf499262e97e3a6e23b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HotteokSurvivor.NormalHotteok
+  name: 0
   enemy: {fileID: 0}
   startPos: {fileID: 0}
   endDistance: 10
   shotSpeed: 10
   hitRadius: 1
-  damage: 30
+  damage: 10

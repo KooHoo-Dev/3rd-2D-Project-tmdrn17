@@ -1,6 +1,7 @@
 using Study.Utilities;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace HotteokSurvivor
 {
@@ -14,22 +15,35 @@ namespace HotteokSurvivor
 
     public class Player : CombatEntity
     {
-        [field: SerializeField] private PlayerStat Stat { get; set; }
+        [field: SerializeField] public PlayerStat Stat { get; private set; }
+
+        [SerializeField] private Slider hpSlider;
+
+        private SpriteRenderer spriteRenderer;
+
         protected override BaseStat BaseStat => Stat;
 
         [SerializeField] protected Money money;
         private Vector2Int checkCell;
 
+        public HotteokRotate hotteokRotate;
+
+        private Animator animator;
 
         private void Start()
         {
             Stat.ResetToFull();
+            GameManager.Instance.Player = this;
+            animator = GetComponent<Animator>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
         {
             Move();
             SearchEnemy();
+
+            hpSlider.value = (float)Stat.Hp / Stat.MaxHp;
         }
 
         protected override void Move()
@@ -43,7 +57,7 @@ namespace HotteokSurvivor
                 float currentScaleX = Mathf.Abs(localscale.x);
                 FacingDirection = (inputVector.x < 0) ? -1 : 1;
                 transform.localScale = new Vector3
-                    (currentScaleX * FacingDirection, localscale.y, localscale.z);
+                    (currentScaleX, localscale.y, localscale.z);
             }
 
             if (inputVector != Vector2.zero)
@@ -51,6 +65,14 @@ namespace HotteokSurvivor
                 Vector3 moveVec = inputVector;
 
                 transform.Translate(moveVec.normalized * Stat.MoveSpeed * Time.deltaTime);
+
+                spriteRenderer.flipX = (FacingDirection == -1) ? true : false;
+
+                animator.SetBool("IsMove", true);
+            }
+            else
+            {
+                animator.SetBool("IsMove", false);
             }
         }
 
@@ -58,11 +80,10 @@ namespace HotteokSurvivor
         {
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
-                Debug.Log("is Dead");
-            }
-            else
-            {
-                Debug.Log($"{Stat.Hp}");
+                GameManager.Instance.Canvas.transform.GetChild(1).gameObject.SetActive(true);
+                GameManager.Instance.Canvas.transform.GetChild(4).gameObject.SetActive(false);
+                Destroy(GameManager.Instance.PoolingSystem.gameObject);
+                Time.timeScale = 0;
             }
         }
 
@@ -108,10 +129,15 @@ namespace HotteokSurvivor
 
             if (Stat.Exp >= Stat.MaxExp)
             {
+                UIManager uIManage = GameManager.Instance.Canvas.GetComponent<UIManager>();
+
+                GameManager.Instance.LevelUpPopUp();
+
+                uIManage.expSlider.value = 1f;
+
                 Stat.Exp = 0;
                 Stat.MaxExp += 1;
                 Stat.Level++;
-                GameManager.Instance.LevelUpPopUp();
             }
         }
 

@@ -7,7 +7,6 @@ namespace HotteokSurvivor
 {
     public class EnemyBullet : MonoBehaviour
     {
-        [SerializeField] private float rotateSpeed = 1.0f;
         [SerializeField] private float shotSpeed = 1.0f;
 
         [SerializeField] private Player target;

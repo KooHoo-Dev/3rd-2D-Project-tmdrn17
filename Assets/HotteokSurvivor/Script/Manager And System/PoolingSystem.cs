@@ -36,6 +36,8 @@ namespace HotteokSurvivor
 
         private void Start()
         {
+            GameManager.Instance.PoolingSystem = this;
+
             enemisePool = new ComponentPool<Enemy>[enemise.Length];
             hotteoksPool = new ComponentPool<Hotteok>[hotteoks.Length];
 

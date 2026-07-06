@@ -12,7 +12,6 @@ namespace HotteokSurvivor
     {
         // 전투 개체의 머리 상단 부분 Pivot
         // Hp 바 또는 이름등을 출력하기 위해 사용
-        [field: SerializeField] public Transform HeadUpPivot { get; private set; }
         [field: SerializeField] protected virtual BaseStat BaseStat { get; }
         [field: SerializeField] public float hitRadius { get; private set; }
 

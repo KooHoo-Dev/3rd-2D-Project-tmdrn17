@@ -17,6 +17,12 @@ namespace HotteokSurvivor
 
         public List<GameObject> DdalgiHottoeks = new List<GameObject>();
 
+        private void Start()
+        {
+            GameManager.Instance.Player.hotteokRotate = this;
+            gameObject.SetActive(false);
+        }
+
         public void AddHotteok(int number)
         {
             DdalgiHottoeks[number].SetActive(true);
