@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using HotteokSurvivor.Script.Manager_And_System;
 using UnityEngine;
 
 namespace HotteokSurvivor
@@ -68,7 +69,7 @@ namespace HotteokSurvivor
                     checkCell = myCell + new Vector2Int(x, y);
 
                     // 해당 방에 적들이 있다면?
-                    if (GridManager.Instance.grid.TryGetValue(checkCell, out List<GameObject> enemies))
+                    if (GridManager.Instance.Grid.TryGetValue(checkCell, out List<GameObject> enemies))
                     {
                         // 3. 그 방에 있는 소수의 적들과만 거리 계산!
                         for (int i = 0; i < enemies.Count; i++)

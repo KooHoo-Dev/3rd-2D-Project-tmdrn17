@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace HotteokSurvivor
+namespace HotteokSurvivor.Script.Manager_And_System
 {
     public class MapSystem : MonoBehaviour
     {
@@ -39,14 +39,14 @@ namespace HotteokSurvivor
                     float dirX = Mathf.Sign(diffX);
 
                     // 타일을 반대편 끝(타일 3장 너비만큼)으로 순간 이동시킵니다
-                    mapTiles[i].position += Vector3.right * dirX * tileSizeX * 3f;
+                    mapTiles[i].position += Vector3.right * (dirX * tileSizeX * 3f);
                 }
 
                 // 2. Y축 이동 판정
                 if (absDiffY > tileSizeY * 1.5f)
                 {
                     float dirY = Mathf.Sign(diffY);
-                    mapTiles[i].position += Vector3.up * dirY * tileSizeY * 3f;
+                    mapTiles[i].position += Vector3.up * (dirY * tileSizeY * 3f);
                 }
             }
         }

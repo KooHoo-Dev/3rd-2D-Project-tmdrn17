@@ -1,3 +1,4 @@
+using HotteokSurvivor.Script.Manager_And_System;
 using Study.Utilities;
 using UnityEngine;
 
@@ -103,7 +104,7 @@ namespace HotteokSurvivor
             if (Stat.ApplyDamage(Mathf.Clamp(damage - Stat.DefensivePower, 0, damage)))
             {
                 gridManager.DeleteToCell(currentPos, gameObject);
-                Money dropmoney = poolingSystem.moneyPool.Get(true);
+                Money dropmoney = poolingSystem.MoneyPool.Get(true);
                 dropmoney.transform.position = transform.position;
                 dropmoney.InIt();
                 gameObject.SetActive(false);

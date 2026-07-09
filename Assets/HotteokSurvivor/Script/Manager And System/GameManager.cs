@@ -1,9 +1,8 @@
 using Study.Utilities;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace HotteokSurvivor
+namespace HotteokSurvivor.Script.Manager_And_System
 {
     public class GameManager : SingletonBase<GameManager>
     {

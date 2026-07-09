@@ -1,10 +1,8 @@
-using Study.Utilities;
 using System.Collections.Generic;
-using Unity.Collections;
-using Unity.VisualScripting;
+using Study.Utilities;
 using UnityEngine;
 
-namespace HotteokSurvivor
+namespace HotteokSurvivor.Script.Manager_And_System
 {
     public class PoolingSystem : SingletonBase<PoolingSystem>
     {
@@ -28,7 +26,7 @@ namespace HotteokSurvivor
 
         private ComponentPool<Enemy>[] enemisePool;
         private ComponentPool<Hotteok>[] hotteoksPool;
-        public ComponentPool<Money> moneyPool;
+        public ComponentPool<Money> MoneyPool;
 
         public List<Enemy> enemiseList = new List<Enemy>();
         private Dictionary<HotteokName, List<Hotteok>> hotteokDic = new Dictionary<HotteokName, List<Hotteok>>();
@@ -53,13 +51,13 @@ namespace HotteokSurvivor
                 hotteoksPool[i] = new ComponentPool<Hotteok>(hotteoks[i], hotteokMuzzle);
             }
 
-            moneyPool = new ComponentPool<Money>(money, moneyParent);
+            MoneyPool = new ComponentPool<Money>(money, moneyParent);
         }
 
         private void Update()
         {
             screen = new Vector3(Screen.width / 2, 0);
-            worldPos = Camera.main.ScreenToWorldPoint(screen);
+            if (Camera.main != null) worldPos = Camera.main.ScreenToWorldPoint(screen);
 
             for (int i = 0; i < enemiseList.Count; i++)
             {
@@ -67,7 +65,7 @@ namespace HotteokSurvivor
                 float diffY = enemiseList[i].transform.position.y - worldPos.y;
 
                 float absDiffX = Mathf.Abs(diffX);
-                float absDiffY = Mathf.Abs(diffX);
+                float absDiffY = Mathf.Abs(diffY);
 
                 Transform randomEnemyPos = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)];
 

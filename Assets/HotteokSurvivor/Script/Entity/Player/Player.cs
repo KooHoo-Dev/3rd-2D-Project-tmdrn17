@@ -1,5 +1,6 @@
 using Study.Utilities;
 using System.Collections.Generic;
+using HotteokSurvivor.Script.Manager_And_System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -97,7 +98,7 @@ namespace HotteokSurvivor
                 {
                     checkCell = myCell + new Vector2Int(x, y);
 
-                    if (GridManager.Instance.grid.TryGetValue(checkCell, out List<GameObject> objects))
+                    if (GridManager.Instance.Grid.TryGetValue(checkCell, out List<GameObject> objects))
                     {
                         for (int i = 0; i < objects.Count; i++)
                         {

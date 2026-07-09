@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace HotteokSurvivor
+namespace HotteokSurvivor.Script.Manager_And_System
 {
     public class UIManager : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace HotteokSurvivor
+namespace HotteokSurvivor.Script.Manager_And_System
 {
     public class DifficultySystem : MonoBehaviour
     {
